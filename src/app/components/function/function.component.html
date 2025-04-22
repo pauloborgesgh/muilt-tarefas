@@ -1,2 +1,16 @@
-<h1>Welcome to My Angular App!</h1>
-<h1> partes onde vai ficar as funcinalidades</h1>
+<div class="container-function">
+   
+    <p>Gerar Numeros</p>
+        <button (click)="gerarNumeros() ">Gerar</button>
+    <p>{{numeros}}</p>    
+    <div *ngIf="numeros.length > 0" class="numeros-list">
+        <h3>Números gerados:</h3>
+        <ul>
+          <li *ngFor="let numero of numeros">{{ numero }}</li>
+        </ul>
+
+    <div class="container-son">
+
+    </div>
+
+</div>

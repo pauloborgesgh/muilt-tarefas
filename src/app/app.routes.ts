@@ -1,13 +1,13 @@
 import { Routes } from '@angular/router';
+import { FunctionComponent } from './components/function/function.component';
 
 export const routes: Routes = [
 
-    // {
-    //     path: '/function',
-    //     loadComponent: () => import('./components/function/function.component').then(c => c.FunctionComponent)
-    // },
-    // {
-    //     redirectTo: '/function',
-    //     pathMatch: 'full'
-    // }
+    { path: 'function',component: FunctionComponent},
+    { 
+        path: '', 
+        redirectTo: 'home', 
+        pathMatch: 'full' 
+      },
+  
 ];

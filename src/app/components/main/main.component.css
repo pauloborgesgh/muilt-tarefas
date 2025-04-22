@@ -1,0 +1,22 @@
+.main{
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+.container{
+    padding: 10px;
+    background-color: #328fac;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container2{
+    padding: 10px;
+    background-color: #5d5de2;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: solid 1px #333;
+   
+    
+}
+p,h1{
+    color: #fff;
+}

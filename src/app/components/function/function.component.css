@@ -1,0 +1,21 @@
+.container-function{
+    padding: 10px;
+    background-color: #97bac5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(50, 65, 01, 0.1);
+    border: solid 1px #387ad1;
+    width: 40%;
+    height: 200px;
+    display: flexbox;
+    
+}
+/* .container-son{
+   
+    background-color: #91eef1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(50, 65, 01, 0.1);
+    border: solid 1px #333;
+    width: 40%;
+    height: 200px;
+   
+} */

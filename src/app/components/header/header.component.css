@@ -1,4 +1,5 @@
 .topnav {
+    margin-top: 2px;
     background-color: #333;
     overflow: hidden;
     border-color: #0a78b8 ;
@@ -6,21 +7,25 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, box-shadow 0.3s;
     border-radius: 10px;
+    margin: 1,5px;
   }
   
 
   .topnav a {
     float: left;
+    margin: 2px;
     color: #f2f2f2;
     text-align: center;
     padding: 4px 4px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 10px;
+    padding: 1px 10px;
   }
   
 
   .topnav a:hover {
+    margin-top: 2px;
     background-color: #ddd;
     color: rgb(36, 43, 102);
   }
