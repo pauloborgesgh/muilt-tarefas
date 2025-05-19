@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Output} from '@angular/core';
 
 @Component({
   selector: 'app-main',
@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './main.component.css'
 })
 export class MainComponent {
-  
-  nome:string = ' '
+  @Output() cmain:string = 'mainc deu certo'
+
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component ,Input} from '@angular/core';
 
 @Component({
   selector: 'app-template',
@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
   standalone: true,
 })
 export class TemplateComponent {
+
+  @Input() dado: string = " ";
+  @Input() dado_m: string = " ";
 
   title: string = "Template Card"
   nome: string  = "João"
