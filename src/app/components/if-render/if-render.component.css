@@ -1,0 +1,11 @@
+.class{
+  border-bottom:  1px solid red;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+button{
+  margin-top: 10px;
+  color: black;
+  background-color: cadetblue;
+  border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+<div class="class">
+  <div>
+    <p *ngIf="canShow" style="color:blue">
+      Acesso Permitido
+    </p>
+    <div>
+      <h3 *ngIf="name === 'Angular'; else nameNotFaound"></h3>
+      <ng-template #nameNotFaound>
+        <h3 style="color: red">Nome não encontrado</h3>
+
+      </ng-template>
+    </div>
+  </div>
+  <button (click)="mostrar()">
+    Mostrar/Remover Conteudo
+  </button>
+
+
+</div>
