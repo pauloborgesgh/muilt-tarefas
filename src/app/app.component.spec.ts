@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'mult-tarefas' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('mult-tarefas');
+    expect(app).toEqual('mult-tarefas');
   });
 
   it('should render title', () => {
