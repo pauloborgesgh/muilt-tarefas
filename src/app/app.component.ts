@@ -5,10 +5,12 @@ import { TemplateComponent } from "./components/template/template.component";
 
 import {IfRenderComponent} from './components/if-render/if-render.component';
 import {EventosComponent} from './components/eventos/eventos.component';
+import { EmiterComponent } from "./components/eventos/emiter/emiter.component";
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, TemplateComponent, IfRenderComponent, EventosComponent],
+  imports: [RouterOutlet, HeaderComponent, TemplateComponent, IfRenderComponent, EventosComponent, EmiterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   standalone: true,
