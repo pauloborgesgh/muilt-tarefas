@@ -1,0 +1,22 @@
+<div class="container">
+
+  <h1>Render list</h1>
+<div style="border: solid 1px gray; border-radius: 10px;">
+  <ul>
+    <li *ngFor="let animal of animals" style="padding: 5px; margin: 8px;">
+      <p style=" padding: 2x; display: inline;color: black; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: aqua; border-radius: 10px;">
+        Nome:{{ animal.name }} raça {{animal.tipo }} Idade:{{animal.idade}}</p>
+    
+    </li>
+
+  </ul>
+  <span>{{animalDetails}}</span>
+  <h3>{{nome | titlecase }}</h3>
+  <span style="color: red;"> Habilidade :{{hability1 | titlecase}}</span>
+
+
+ 
+</div>
+
+
+

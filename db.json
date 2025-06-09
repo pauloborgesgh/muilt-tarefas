@@ -1,0 +1,49 @@
+
+{
+  "animals": [
+    {"id": 1,"name": "Turca","type": "Dog","age": 4},
+    {"id": 2,"name": "Lex","type": "Cat","age": 6},
+    {"id": 3,"name": "Hahat","type": "Hamster","age": 3},
+    {"id": 5,"name": "Bubble","type": "bird","age": 1},
+    {"id": 6,"name": "Duke","type": "Dog","age": 5},
+    {"id": 7,"name": "Lola","type": "Cat","age": 4},
+    {
+      "id": 8,
+      "name": "Turca",
+      "type": "Dog",
+      "age": 4
+    },
+    {
+      "id": 9,
+      "name": "Lex",
+      "type": "Cat",
+      "age": 6
+    },
+    {
+      "id": 10,
+      "name": "Hahat",
+      "type": "Hamster",
+      "age": 3
+    },
+    {
+      "id": 11,
+      "name": "Bubble",
+      "type": "bird",
+      "age": 1
+    },
+    {
+      "id": 12,
+      "name": "Duke",
+      "type": "Dog",
+      "age": 5
+    },
+    {
+      "id": 13,
+      "name": "Lola",
+      "type": "Cat",
+      "age": 4
+    }
+  ]
+  
+
+}

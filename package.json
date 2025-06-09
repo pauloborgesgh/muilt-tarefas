@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "server": "json-server --watch db.json",
     "serve:ssr:mult-tarefas": "node dist/mult-tarefas/server/server.mjs"
   },
   "private": true,
@@ -25,6 +26,7 @@
     "@netlify/angular-runtime": "^2.3.1",
     "@tailwindcss/postcss": "^4.1.4",
     "express": "^4.18.2",
+    "json-server": "^1.0.0-beta.3",
     "nginx": "^1.1.0",
     "postcss": "^8.5.3",
     "rxjs": "~7.8.0",

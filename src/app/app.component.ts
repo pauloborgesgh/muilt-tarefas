@@ -1,22 +1,23 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./components/header/header.component";
-import { TemplateComponent } from "./components/template/template.component";
-
-import {IfRenderComponent} from './components/if-render/if-render.component';
-import {EventosComponent} from './components/eventos/eventos.component';
-import { EmiterComponent } from "./components/eventos/emiter/emiter.component";
+import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, TemplateComponent, IfRenderComponent, EventosComponent, EmiterComponent],
+  imports: [FormsModule,RouterOutlet, HeaderComponent,HttpClientModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   standalone: true,
 })
 export class AppComponent {
-
+  nome:string = ''
   dadoPai :string = "Dado Pai";
+
+
+
+
 
 }

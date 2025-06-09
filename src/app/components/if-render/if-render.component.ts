@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import {CommonModule} from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @Component({
   selector: 'app-if-render',
-  imports: [CommonModule],
+  imports: [CommonModule,HttpClientModule],
   templateUrl: './if-render.component.html',
   styleUrl: './if-render.component.css'
   ,standalone: true,

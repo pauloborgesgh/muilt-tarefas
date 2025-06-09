@@ -9,10 +9,11 @@ import { ChangeNumberComponent } from "../change-number/change-number.component"
   standalone:true
 })
 export class EmiterComponent {
-  myNumber:number  = 0
+  myNumber:number = 0
 
-  onChangeNumer(){
+  onChangeNumber(){
     this.myNumber = Math.floor(Math.random() *50)
+    console.log(this.myNumber)
     
   }
 

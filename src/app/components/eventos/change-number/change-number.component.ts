@@ -8,10 +8,10 @@ import { Component,Output,EventEmitter } from '@angular/core';
   standalone:true
 })
 export class ChangeNumberComponent {
-  @Output() changeNumer: EventEmitter<any> = new EventEmitter
+  @Output() changeNumber: EventEmitter<any> = new EventEmitter();
 
   handleClick(){
-    
+    this.changeNumber.emit();
   
   }
 
