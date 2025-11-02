@@ -7,7 +7,7 @@ import { ListService } from '../../services/list.service';
 
 @Component({
   selector: 'app-render-list',
-  imports: [CommonModule, PipesOperationComponent],
+  imports: [CommonModule],
   providers: [],
   templateUrl: './render-list.component.html',
   styleUrl: './render-list.component.css',
@@ -15,12 +15,13 @@ import { ListService } from '../../services/list.service';
 })
 export class RenderListComponent implements OnInit {
   animalDetails:string = ''
-  animals :Animal[] =[];
-nome:string = ''
-tipo:string = ''
-idade:number = 0
-hability1 :string = ''
-hability2 :string = ''
+    animals :Animal[] =[];
+    nome:string = ''
+    tipo:string = ''
+    idade:number = 0
+    hability1 :string = ''
+    hability2 :string = ''
+
  ngOnInit(): void {
 
 
@@ -34,7 +35,7 @@ hability2 :string = ''
     this.animalDetails = `o Pat ${animal.name} Tem ${animal.idade} anos`
 
     }
-   
+
  removeAnimal(animal:Animal){
  this.animals =  this.listservice.remove(this.animals,animal)
 

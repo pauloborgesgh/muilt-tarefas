@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { ListService } from './services/list.service';
+import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./components/header/header.component";
 import { HttpClientModule } from '@angular/common/http';
@@ -15,8 +16,20 @@ import {FormsModule} from '@angular/forms';
 export class AppComponent {
   nome:string = ''
   dadoPai :string = "Dado Pai";
+  poke: any[] = [];
+
+  constructor(private service: ListService,
+              private HttpClient: HttpClientModule,
+
+  ) {
+
+  }
+
+  OnInit(): void {
 
 
+
+  }
 
 
 
