@@ -1,0 +1,12 @@
+<div class="container">
+  <p *ngIf="mensagem">Exibir mensagem</p>
+  <button (click)="showMessage()">
+    Exibir Mensagem
+  </button>
+
+<div>
+    <h1>Numero {{Number}}</h1>
+  <app-change-number (changeNumber)="onChangeNumber()"></app-change-number>
+</div>
+
+</div>

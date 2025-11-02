@@ -1,0 +1,19 @@
+<div class="container-class">
+  <form>
+      <input type="text" [(ngModel)]="name"
+             placeholder="digite  um nome"
+             name="name"
+
+     />
+    <input type="submit" value="enviar">
+    <button (click)="clear()">Limpar</button>
+  </form>
+
+ <div *ngIf="name"; else NotFound>
+   <ng-template>
+   <h2>nao encontrado</h2>
+
+   </ng-template>
+  <span style="color: red">{{name}}</span>
+ </div>
+</div>

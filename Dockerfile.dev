@@ -1,0 +1,20 @@
+# Usar a imagem do Node diretamente (sem multi-stage para dev)
+FROM node:18
+
+WORKDIR /app
+
+# Instala dependências e o Angular CLI globalmente (opcional)
+RUN npm install -g @angular/cli
+
+# Copia os arquivos de dependência primeiro (cache otimizado)
+COPY package.json package-lock.json ./
+RUN npm install
+
+# Copia o restante do código
+COPY . .
+
+# Expõe a porta padrão do `ng serve` (4200) e a porta do HMR (49153)
+EXPOSE 4200 49153
+
+# Comando para rodar o Angular em modo de desenvolvimento
+CMD ["ng", "serve", "--host", "0.0.0.0", "--poll", "1000"]

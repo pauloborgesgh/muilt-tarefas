@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  angular:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev  # Usa o Dockerfile de desenvolvimento
+    ports:
+      - "4200:4200"  # Mapeia a porta do ng serve
+    volumes:
+      - .:/app  # Monta o código-fonte no container (Live Reload)
+      - /app/node_modules  # Evita sobrescrever node_modules

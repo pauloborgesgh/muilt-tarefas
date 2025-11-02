@@ -1,8 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-    margin: 1px;
-    padding: 1px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 10px;
+    margin: 3px;
+    padding: 3px;
+
+
     box-sizing: border-box;
 }
+.class-container{
+    border-bottom: solid 1px red;
+    border:solid 1px skyblue;
+    border-radius:10px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0 2px 4px rgba(10, 5, 5, 0.103);
+
+
+}
+

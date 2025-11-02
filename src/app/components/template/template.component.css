@@ -1,0 +1,14 @@
+.template{
+  border: #97bac5 2px solid;
+  border-radius: 10px;
+  width: 40%;
+  height: 200px;
+  background-color: #97bac5;
+  margin-bottom: 5px;
+
+}
+p{
+  background-color: #0a78b8;
+  border-radius: 8px;
+  padding: 5px;
+}
