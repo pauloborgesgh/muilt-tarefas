@@ -9,6 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class ListService {
   private apiUrl = 'http://localhost:3000/animals'
+  baseUrl = 'https://pokeapi.co/api/v2'
 
   constructor(private http:HttpClient) { }
 
@@ -23,5 +24,12 @@ export class ListService {
   }
   getItem(id:number):Observable<Animal>{
     return this.http.get<Animal>(`${this.apiUrl}/${id}`)
+  }
+  getPokemonList(): Observable<any> {
+    return this.http.get(`${this.baseUrl}/pokemon/?limit=3`);
+  }
+
+  getPokemonDetails(url: string): Observable<any> {
+    return this.http.get(url);
   }
 }
