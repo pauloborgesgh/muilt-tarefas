@@ -7,11 +7,28 @@
 	color: #bfe9ff;
 	padding: 18px 12px;
 	border-top: 1px solid rgba(255,255,255,0.03);
-	border-radius: 12px;
-	margin: 12px 8px;
+		border-radius: 12px;
+		margin: 12px 8px;
 	backdrop-filter: blur(6px);
 	box-shadow: 0 -6px 24px rgba(2,6,23,0.6) inset;
 	font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Sticky footer: fixa ao final da viewport, centralizado e responsivo */
+.neon-footer.sticky {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 16px; /* fica a 16px do rodapé da viewport */
+	width: calc(100% - 32px);
+	max-width: 1100px;
+	z-index: 9999;
+}
+
+/* Alternativa: se preferir que o footer esteja no fluxo (não fixo), remova a classe `sticky` do elemento */
+
+@media (max-width:480px) {
+	.neon-footer.sticky { bottom: 8px; width: calc(100% - 24px); }
 }
 
 .neon-footer .container {
