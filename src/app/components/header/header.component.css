@@ -1,3 +1,4 @@
+
 .topnav {
     margin-top: 2px;
     background: linear-gradient(180deg, #04060a 0%, #08121a 100%);
@@ -38,3 +39,22 @@
     color: #001f23;
     box-shadow: 0 0 18px rgba(103,219,226,0.45);
   }
+
+  /* relógio digital neon */
+  .topnav .clock {
+    margin-left: auto;
+    color: var(--cp-neon-2, #a6fff8);
+    background: rgba(166,255,248,0.04);
+    padding: 6px 12px;
+    border-radius: 8px;
+    /* fonte digital mais apropriada */
+    font-family: 'VT323', 'Roboto Mono', monospace;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 1.05rem;
+    box-shadow: 0 0 14px rgba(255,110,199,0.06), 0 0 12px rgba(103,219,226,0.18), inset 0 -1px 8px rgba(255,255,255,0.02);
+    text-shadow: 0 0 10px rgba(255,110,199,0.14), 0 0 6px rgba(166,255,248,0.16);
+    align-self: center;
+  }
+
+/* importar fonte VT323 do Google Fonts para estilo digital */
