@@ -1,18 +1,5 @@
 
 
 <div class="class-container">
-  <div *ngFor="let p of poke.nome; let i = index">
-    <img [src]="poke.sprites?.front_default || ('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + (i+1) + '.png')" />
-    <p><strong>Nome:</strong> {{ poke.nome }}</p>
-    <p><strong>Tipos:</strong>
-      <span *ngFor="let t of poke.types; let last = last">
-        {{ poke.types }}<span *ngIf="!last">, </span>
-      </span>
-    </p>
-    <p><strong>Habilidades:</strong>
-      <span *ngFor="let a of poke.abilities; let last = last">
-        {{ poke.abilities }}<span *ngIf="!last">, </span>
-      </span>
-    </p>
-  </div>
+
 </div>
