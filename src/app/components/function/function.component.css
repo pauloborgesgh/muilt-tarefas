@@ -7,15 +7,18 @@
     width: 40%;
     height: 200px;
     display: flexbox;
-    
+
+}
+.selection>option{
+  color: black;
 }
 /* .container-son{
-   
+
     background-color: #91eef1;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(50, 65, 01, 0.1);
     border: solid 1px #333;
     width: 40%;
     height: 200px;
-   
+
 } */

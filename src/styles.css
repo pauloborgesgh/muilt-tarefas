@@ -2,18 +2,115 @@
 *{
     margin: 3px;
     padding: 3px;
-
-
     box-sizing: border-box;
 }
+
 .class-container{
     border-bottom: solid 1px red;
-    border:solid 1px skyblue;
-    border-radius:10px;
+    border: solid 1px skyblue;
+    border-radius: 10px;
     height: 500px;
     width: 500px;
     box-shadow: 0 2px 4px rgba(10, 5, 5, 0.103);
-
-
 }
+
+:root{
+    /* cyberpunk palette */
+    --cp-bg-1: #04060a;
+    --cp-bg-2: #08121a;
+    --cp-neon-1: #67dbe2;
+    --cp-neon-2: #a6fff8;
+    --cp-accent: #ff6ec7;
+    --card-bg: rgba(20,24,30,0.6);
+}
+
+/* Background principal com camada animada */
+html, body {
+    height: 100%;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    color: var(--cp-neon-2);
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    background: linear-gradient(180deg, var(--cp-bg-1), var(--cp-bg-2));
+    overflow-x: hidden;
+}
+
+/* Camada animada sutil por cima do fundo escuro */
+body::before{
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    /* Camadas: cyan suave no canto, e um rosa mais presente em outro ponto, com blend geral */
+    background:
+        radial-gradient(circle at 10% 10%, rgba(103,219,226,0.08), transparent 10%),
+        radial-gradient(circle at 85% 20%, rgba(255,110,199,0.08), transparent 8%),
+        linear-gradient(120deg, rgba(103,219,226,0.06), rgba(255,110,199,0.12), rgba(166,255,248,0.04));
+    filter: blur(36px) saturate(140%);
+    opacity: 0.95;
+    transform: translate3d(-10%,0,0);
+    animation: moveGradient 16s linear infinite;
+}
+
+@keyframes moveGradient{
+    0% { transform: translate3d(-10%,0,0) scale(1.02); }
+    50% { transform: translate3d(10%,0,0) scale(1.03); }
+    100% { transform: translate3d(-10%,0,0) scale(1.02); }
+}
+
+.cyber-card{
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border: 1px solid rgba(103,219,226,0.12);
+    border-radius: 12px;
+    padding: 14px;
+    box-shadow: 0 6px 30px rgba(103,219,226,0.04), 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.cyber-card .title{
+    color: var(--cp-neon-1);
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-shadow: 0 0 8px rgba(166,255,248,0.06);
+}
+
+.grid-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.input-neon{
+    background: transparent;
+    border: 1px solid rgba(166,255,248,0.12);
+    color: var(--cp-neon-1);
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+.input-neon:focus{
+    outline: none;
+    border-color: var(--cp-neon-2);
+    box-shadow: 0 0 12px rgba(166,255,248,0.28);
+}
+.input-neon>option{
+  color: black;
+}
+option:hover{
+    background-color: var(--cp-bg-2);
+}
+
+.btn-neon{
+    background: linear-gradient(90deg,var(--cp-neon-1),var(--cp-accent));
+    color: #001f23;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 18px rgba(103,219,226,0.18);
+}
+
 
