@@ -6,7 +6,7 @@ import {CommonModule} from '@angular/common';
   selector: 'app-two-data-bind',
   imports: [FormsModule,CommonModule],
   templateUrl: './two-data-bind.component.html',
-  styleUrl: './two-data-bind.component.css'
+  styleUrls: ['./two-data-bind.component.css']
   ,standalone: true,
 })
 export class TwoDataBindComponent {

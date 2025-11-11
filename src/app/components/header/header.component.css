@@ -54,7 +54,7 @@
     font-size: 1.05rem;
     box-shadow: 0 0 14px rgba(255,110,199,0.06), 0 0 12px rgba(103,219,226,0.18), inset 0 -1px 8px rgba(255,255,255,0.02);
     text-shadow: 0 0 10px rgba(255,110,199,0.14), 0 0 6px rgba(166,255,248,0.16);
-    align-self: center;
+    align-self: flex-end;
   }
 
 /* importar fonte VT323 do Google Fonts para estilo digital */

@@ -1,0 +1,30 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Gerador de PDF</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div>
+      <label>Imagem (ficará no canto superior):</label>
+      <input type="file" accept="image/*" (change)="onFileChange($event)" />
+    </div>
+
+    <div style="margin-top:12px">
+      <mat-form-field style="width:100%">
+        <mat-label>Texto a inserir</mat-label>
+        <!-- textarea com tamanho maior e barra de rolagem quando necessário -->
+        <textarea matInput [(ngModel)]="textToAdd" placeholder="Digite o texto que será adicionado ao PDF"
+          rows="8" style="width:100%; max-height:240px; overflow-y:auto; resize:vertical; padding:8px; box-sizing:border-box;"></textarea>
+      </mat-form-field>
+    </div>
+
+    <div *ngIf="imageSrc" style="margin-top:10px">
+      <label>Preview:</label>
+      <img [src]="imageSrc" alt="preview" style="max-width:160px; display:block; margin-top:6px; border-radius:6px;" />
+    </div>
+  </mat-card-content>
+  <mat-card-actions style="display:flex; gap:8px; justify-content:flex-end; padding:16px;">
+    <button mat-stroked-button color="primary" (click)="generatePdf()">Gerar PDF</button>
+    <button mat-button (click)="close()">Fechar</button>
+  </mat-card-actions>
+</mat-card>
+

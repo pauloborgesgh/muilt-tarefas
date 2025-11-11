@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
   imports: [CommonModule, CdkAccordionModule, CdkAccordionItem, FormsModule],
 
   templateUrl: './function.component.html',
-  styleUrl: './function.component.css',
+  styleUrls: ['./function.component.css'],
   standalone: true,
 })
 export class FunctionComponent {

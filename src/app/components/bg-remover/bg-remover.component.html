@@ -1,0 +1,30 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Remover Fundo</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div>
+      <label>Escolha a imagem:</label>
+      <input type="file" accept="image/*" (change)="onFileChange($event)" />
+    </div>
+
+    <div style="margin-top:10px">
+      <label>Tolerância: {{tolerance}}</label>
+      <input type="range" min="0" max="200" [(ngModel)]="tolerance" />
+    </div>
+
+    <div style="margin-top:12px">
+      <canvas #canvas style="max-width:100%; border:1px solid rgba(255,255,255,0.06);"></canvas>
+    </div>
+
+    <div *ngIf="processedUrl" style="margin-top:10px">
+      <label>Preview:</label>
+      <img [src]="processedUrl" style="max-width:100%; display:block; margin-top:6px; border-radius:6px;" />
+    </div>
+  </mat-card-content>
+  <mat-card-actions style="display:flex; gap:8px; justify-content:flex-end; padding:16px;">
+    <button mat-stroked-button color="primary" (click)="removeBackground()">Remover fundo</button>
+    <button mat-flat-button color="accent" (click)="downloadResult()">Baixar PNG</button>
+    <button mat-button (click)="close()">Fechar</button>
+  </mat-card-actions>
+</mat-card>

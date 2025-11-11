@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { DialogComponent } from './dialog.component';
+import { GeradorPdfComponent } from './gerador-pdf.component';
 
-describe('DialogComponent', () => {
-  let component: DialogComponent;
-  let fixture: ComponentFixture<DialogComponent>;
+describe('GeradorPdfComponent', () => {
+  let component: GeradorPdfComponent;
+  let fixture: ComponentFixture<GeradorPdfComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DialogComponent ]
+      declarations: [ GeradorPdfComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DialogComponent);
+    fixture = TestBed.createComponent(GeradorPdfComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

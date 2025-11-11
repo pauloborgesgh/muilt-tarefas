@@ -5,7 +5,7 @@ import { ChangeNumberComponent } from "../change-number/change-number.component"
   selector: 'app-emiter',
   imports: [ChangeNumberComponent],
   templateUrl: './emiter.component.html',
-  styleUrl: './emiter.component.css',
+  styleUrls: ['./emiter.component.css'],
   standalone:true
 })
 export class EmiterComponent {
@@ -14,7 +14,7 @@ export class EmiterComponent {
   onChangeNumber(){
     this.myNumber = Math.floor(Math.random() *50)
     console.log(this.myNumber)
-    
+
   }
 
 }

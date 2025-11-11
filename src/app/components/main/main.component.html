@@ -1,5 +1,41 @@
 
 
-<div class="class-container">
 
+<div class="main-grid">
+	<div class="card">
+		<h3>Gerador de PDF</h3>
+		<p>Crie PDFs personalizados a partir de templates e conteúdo dinâmico.</p>
+		<button class="btn-neon" (click)="openGeradorPdf()">Iniciar</button>
+
+	</div>
+
+	<div class="card">
+		<h3>Recortar Imagem</h3>
+		<p>Ferramenta para recortar imagens (crop) diretamente no navegador.</p>
+		<button class="btn-neon" (click)="openImageCrop()">Abrir</button>
+	</div>
+
+	<div class="card">
+		<h3>Remover Fundo</h3>
+		<p>Remoção de fundo automático (API/algoritmo) — integração futura com serviços.</p>
+		<button class="btn-neon" (click)="openBgRemove()">Abrir</button>
+	</div>
+
+	<div class="card">
+		<h3>Consultas</h3>
+		<p>Fazer consultas a APIs (busca, CEP, clima, PokeAPI e outras).</p>
+		<button class="btn-neon" (click)="openQueries()">Abrir</button>
+	</div>
+
+	<div class="card">
+		<h3>Conversões</h3>
+		<p>Conversões úteis: unidades, moedas, temperatura.</p>
+		<button class="btn-neon" (click)="openConversions()">Abrir</button>
+	</div>
+
+	<div class="card">
+		<h3>Buscar itens</h3>
+		<p>Use o buscador global no header para filtrar listas (Render List).</p>
+		<button class="btn-neon" routerLink="/render-list">Ir para lista</button>
+	</div>
 </div>

@@ -1,13 +1,13 @@
-
-      <div class="topnav bg-blue-400">
-        <a routerLink="/" class="active">{{name}}</a>
-        <a routerLink="/" class="active">Home</a>
-        <a routerLink="/main">Main</a>
-        <a routerLink="/contact">Contact</a>
-        <a routerLink="/function">funções</a>
-        <a routerLink="/render-list">Render List</a>
-
-              <!-- relógio digital neon -->
-              <div class="clock" aria-live="polite">{{ currentTime }}</div>
-
-            </div>
+<div class="topnav bg-blue-400">
+  <a routerLink="/" class="active">{{ name }}</a>
+  <a routerLink="/" class="active">Home</a>
+  <a routerLink="/main">Main</a>
+  <a routerLink="/contact">Contact</a>
+  <a routerLink="/function">funções</a>
+  <a routerLink="/render-list">Render List</a>
+  <a href="#" (click)="openDialog(); $event.preventDefault()">Dialog</a>
+  <div style="display:flex;align-items:center;gap:8px">
+    <input class="input-neon" type="search" placeholder="Buscar..."  />
+    <div class="clock" aria-live="polite">{{ currentTime }}</div>
+  </div>
+</div>

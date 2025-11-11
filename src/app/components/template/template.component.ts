@@ -4,7 +4,7 @@ import { Component ,Input} from '@angular/core';
   selector: 'app-template',
   imports: [],
   templateUrl: './template.component.html',
-  styleUrl: './template.component.css',
+  styleUrls: ['./template.component.css'],
   standalone: true,
 })
 export class TemplateComponent {

@@ -10,9 +10,9 @@ import { MainComponent } from './components/main/main.component';
 
 @Component({
   selector: 'app-root',
-  imports: [FormsModule,RouterOutlet, HeaderComponent,HttpClientModule,FooterComponent,MainComponent],
+  imports: [FormsModule,RouterOutlet, HeaderComponent,HttpClientModule,FooterComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: ['./app.component.css'],
   standalone: true,
 })
 export class AppComponent {
@@ -21,7 +21,7 @@ export class AppComponent {
   poke: any[] = [];
 
   constructor(private service: ListService,
-              private HttpClient: HttpClientModule,
+
 
   ) {
 

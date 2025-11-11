@@ -7,7 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
   selector: 'app-if-render',
   imports: [CommonModule,HttpClientModule],
   templateUrl: './if-render.component.html',
-  styleUrl: './if-render.component.css'
+  styleUrls: ['./if-render.component.css']
   ,standalone: true,
 })
 export class IfRenderComponent {
