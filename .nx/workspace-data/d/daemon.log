@@ -146,3 +146,79 @@ DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 7.888ms - processe
 [NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.796Z - [WATCHER]: 0 file(s) created or restored, 16 file(s) modified, 0 file(s) deleted
 [NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.798Z - [WATCHER]: Stopping the watcher for c:\Projetos\mult-tarefas\muilt-tarefas (outputs)
 [NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.813Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:22.476Z - Started listening on: \\.\pipe\nx\C:\Users\paulo\AppData\Local\Temp\170ad46b1ccb299e6121\d.sock
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:22.500Z - [WATCHER]: Subscribed to changes within: c:\Projetos\mult-tarefas\muilt-tarefas (native)
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:22.537Z - Established a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:22.559Z - Closed a connection. Number of open connections: 0
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:22.725Z - Time taken for 'loadSpecifiedNxPlugins' 15.00689999999986ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:22.758Z - Established a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:22.759Z - Closed a connection. Number of open connections: 0
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:22.766Z - Established a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:22.777Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 1980 code loading' 61.84840000000003
+Time for 'plugin worker 12768 code loading' 82.67760000000001
+Time for 'plugin worker 19012 code loading' 97.86030000000002
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:23.933Z - Established a connection. Number of open connections: 2
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:23.934Z - Closed a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:27.096Z - Time taken for 'Load Nx Plugin: c:\Projetos\mult-tarefas\muilt-tarefas\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 4452.3746ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:27.559Z - Time taken for 'Load Nx Plugin: c:\Projetos\mult-tarefas\muilt-tarefas\node_modules\nx\src\plugins\package-json' 4917.383ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:28.765Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:28.765Z - [REQUEST]: 
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:28.765Z - [REQUEST]: 
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:28.786Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:28.849Z - Time taken for 'loadDefaultNxPlugins' 6125.886699999999ms
+Time for 'nx/core/project-json:createNodes' 1.1873999999997977
+Time for 'nx/core/package-json:createNodes' 18.943900000000212
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 199.5010000000002
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:29.349Z - Time taken for 'build-project-configs' 350.8793000000005ms
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\app.component.ts:13:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\app.component.ts:15:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\app.component.ts:17:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\app.component.ts:24:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\app.component.ts:27:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\app.component.ts:30:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\main\main.component.ts:20:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\main\main.component.ts:25:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\main\main.component.ts:52:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\services\list.service.ts:2:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\services\list.service.ts:5:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\services\list.service.ts:7:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\services\list.service.ts:15:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\services\list.service.ts:18:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\services\list.service.ts:19:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\services\list.service.ts:27:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\services\list.service.ts:28:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\services\list.service.ts:32:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\main.server.ts:5:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\main.server.ts:8:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\main.server.ts:14:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\header\header.component.ts:2:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\header\header.component.ts:12:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\header\header.component.ts:22:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\header\header.component.ts:27:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\header\header.component.ts:58:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\header\header.component.ts:97:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\render-list\render-list.component.ts:13:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\render-list\render-list.component.ts:18:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\render-list\render-list.component.ts:20:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\render-list\render-list.component.ts:33:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\render-list\render-list.component.ts:38:0 Merge conflict marker encountered.
+DEBUG nx::native::plugins::js::ts_import_locators: c:\Projetos\mult-tarefas\muilt-tarefas\src\app\components\render-list\render-list.component.ts:39:0 Merge conflict marker encountered.
+Time for 'build typescript dependencies' 476.8576000000003
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.758Z - [SYNC]: collect registered sync generators
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.825Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.825Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.836Z - Time taken for 'total for creating and serializing project graph' 8048.4896ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.845Z - Done responding to the client project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.846Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 8052. Response time: 21.
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.877Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.879Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.969Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.969Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.984Z - Time taken for 'total for creating and serializing project graph' 91.60579999999936ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.985Z - Done responding to the client project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:30.986Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 92. Response time: 17.
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:31.026Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:31.027Z - Done responding to the client handleContextFileData
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:31.027Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 8. Response time: 1.
+[NX v22.0.3 Daemon Server] - 2025-11-17T14:38:31.031Z - Closed a connection. Number of open connections: 0

@@ -1,196 +1,424 @@
 {
   ".": {
     "root": [
-      "angular.json",
-      "nx-angular-json-plugin"
-    ],
-    "projectType": [
-      "angular.json",
-      "nx-angular-json-plugin"
-    ],
-    "sourceRoot": [
-      "angular.json",
-      "nx-angular-json-plugin"
-    ],
-    "prefix": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "name": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
-    "generators": [
-      "angular.json",
-      "nx-angular-json-plugin"
+    "tags": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package.json",
+      "nx/core/package-json"
     ],
     "targets": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.ng": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.ng.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.ng.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.ng.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.ng.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.ng.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.ng.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.server": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.server.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.server.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.server.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.server.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.server.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.server.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve:ssr:mult-tarefas": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve:ssr:mult-tarefas.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve:ssr:mult-tarefas.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve:ssr:mult-tarefas.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve:ssr:mult-tarefas.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve:ssr:mult-tarefas.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve:ssr:mult-tarefas.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.executor": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.configurations": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.defaultConfiguration": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.outputPath": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.index": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.browser": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.polyfills": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.tsConfig": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.assets": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.styles": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.scripts": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.server": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.prerender": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.options.ssr": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.configurations.production": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.configurations.production.budgets": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.configurations.production.outputHashing": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.configurations.development": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.configurations.development.optimization": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.configurations.development.extractLicenses": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.build.configurations.development.sourceMap": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.serve": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.serve.executor": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.serve.configurations": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.serve.defaultConfiguration": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.serve.configurations.production": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.serve.configurations.production.buildTarget": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.serve.configurations.development": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.serve.configurations.development.buildTarget": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.extract-i18n": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.extract-i18n.executor": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.test": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.test.executor": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.test.options": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.test.options.polyfills": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.test.options.tsConfig": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.test.options.assets": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.test.options.styles": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
     ],
     "targets.test.options.scripts": [
-      "angular.json",
-      "nx-angular-json-plugin"
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
     ]
   }
 }
