@@ -10,15 +10,24 @@ import { MainComponent } from './components/main/main.component';
 
 @Component({
   selector: 'app-root',
+<<<<<<< HEAD
   imports: [FormsModule,RouterOutlet, HeaderComponent,FooterComponent,MainComponent],
+=======
+  imports: [FormsModule,RouterOutlet, HeaderComponent,HttpClientModule,FooterComponent],
+>>>>>>> develop
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: ['./app.component.css'],
   standalone: true,
 })
 export class AppComponent {
 
+<<<<<<< HEAD
 
   constructor(
+=======
+  constructor(private service: ListService,
+
+>>>>>>> develop
 
   ) {
 

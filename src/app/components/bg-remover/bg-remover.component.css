@@ -1,0 +1,5 @@
+:host { display:block }
+mat-card { background: rgba(0,0,0,0.55); color: var(--cp-neon-2); }
+input[type="range"]{ width:100%; }
+canvas{ width:100%; height:auto; display:block; }
+img{ background: repeating-linear-gradient(45deg,#00000010 0 6px, transparent 6px 12px); }

@@ -1,0 +1,16 @@
+:host{ display:block; padding:18px }
+.main-grid{
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 16px;
+}
+.card{
+	background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+	border: 1px solid rgba(167,255,248,0.06);
+	padding: 14px;
+	border-radius: 12px;
+	box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+}
+.card h3{ color: var(--cp-neon-1); margin:0 0 8px 0 }
+.card p{ color: rgba(255,255,255,0.8); font-size:0.95rem }
+.card .btn-neon{ margin-top:10px }

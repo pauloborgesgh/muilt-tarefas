@@ -6,7 +6,7 @@ import { ChangeNumberComponent } from './change-number/change-number.component';
   selector: 'app-eventos',
   imports: [CommonModule,ChangeNumberComponent],
   templateUrl: './eventos.component.html',
-  styleUrl: './eventos.component.css',
+  styleUrls: ['./eventos.component.css'],
   standalone: true,
 })
 export class EventosComponent {
@@ -20,7 +20,7 @@ export class EventosComponent {
   onChangeNumber(){
     this.Number = Math.floor(Math.random() *50)
     console.log(this.Number)
-    
+
   }
 
 }

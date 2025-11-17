@@ -1,14 +1,28 @@
+<<<<<<< HEAD
 
 <div class="topnav">
   <a routerLink="/" class="brand">{{name}}</a>
   <a routerLink="/">Home</a>
+=======
+<div class="topnav bg-blue-400">
+  <a routerLink="/" class="active">{{ name }}</a>
+  <a routerLink="/" class="active">Home</a>
+>>>>>>> develop
   <a routerLink="/main">Main</a>
   <a routerLink="/contact">Contact</a>
   <a routerLink="/function">funções</a>
   <a routerLink="/render-list">Render List</a>
+<<<<<<< HEAD
   <a routerLink="/task">Lista-Tareas</a>
   <div class="spacer"></div>
   <mat-slide-toggle  (click)="toggleTheme()">
     {{ theme === 'classic' ? 'Tema: Clássico' : 'Tema: Cyber' }}
   </mat-slide-toggle>
+=======
+  <a href="#" (click)="openDialog(); $event.preventDefault()">Dialog</a>
+  <div style="display:flex;align-items:center;gap:8px">
+    <input class="input-neon" type="search" placeholder="Buscar..."  />
+    <div class="clock" aria-live="polite">{{ currentTime }}</div>
+  </div>
+>>>>>>> develop
 </div>

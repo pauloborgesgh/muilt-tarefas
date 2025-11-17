@@ -1,0 +1,27 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>Recortar Imagem (seleção manual)</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div>
+      <input type="file" accept="image/*" (change)="onFileChange($event)" />
+    </div>
+
+    <div *ngIf="imageSrc" class="preview">
+      <div style="max-width:100%; margin-top:8px;">
+        <img #imageElement [src]="imageSrc" alt="preview" style="max-width:100%; display:block;" />
+      </div>
+
+      <div style="margin-top:8px; display:flex; gap:8px;">
+        <button mat-stroked-button color="primary" (click)="applyCropPreview()">Ver recorte</button>
+        <button mat-flat-button color="accent" (click)="downloadCropped()">Baixar recorte</button>
+        <button mat-button (click)="destroyCropper()">Resetar seleção</button>
+      </div>
+
+      <div *ngIf="previewUrl" style="margin-top:12px">
+        <label>Preview do recorte:</label>
+        <img [src]="previewUrl" style="max-width:240px; display:block; margin-top:6px; border-radius:6px; border:1px solid rgba(255,255,255,0.06);" />
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

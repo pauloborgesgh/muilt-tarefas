@@ -8,7 +8,7 @@ import {TitleCasePipe} from '@angular/common';
 
   ],
   templateUrl: './pipes-operation.component.html',
-  styleUrl: './pipes-operation.component.css',
+  styleUrls: ['./pipes-operation.component.css'],
   standalone: true
 
 })

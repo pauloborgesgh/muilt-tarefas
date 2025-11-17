@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-interface',
   imports: [],
   templateUrl: './interface.component.html',
-  styleUrl: './interface.component.css'
+  styleUrls: ['./interface.component.css']
 })
 export class InterfaceComponent {
 
