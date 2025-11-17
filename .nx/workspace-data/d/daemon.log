@@ -1,0 +1,148 @@
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:35.028Z - Started listening on: \\.\pipe\nx\C:\Users\paulo\AppData\Local\Temp\170ad46b1ccb299e6121\d.sock
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:35.037Z - [WATCHER]: Subscribed to changes within: c:\Projetos\mult-tarefas\muilt-tarefas (native)
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:35.048Z - Established a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:35.067Z - Closed a connection. Number of open connections: 0
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:35.288Z - Established a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:35.296Z - Established a connection. Number of open connections: 2
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:35.304Z - Time taken for 'loadSpecifiedNxPlugins' 17.15780000000018ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:35.304Z - Closed a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:35.321Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 21380 code loading' 40.77470000000001
+Time for 'plugin worker 8112 code loading' 34.43079999999998
+Time for 'plugin worker 14080 code loading' 53.466800000000006
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:37.303Z - Time taken for 'Load Nx Plugin: c:\Projetos\mult-tarefas\muilt-tarefas\node_modules\nx\src\plugins\package-json' 2140.1827000000003ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:37.315Z - Time taken for 'Load Nx Plugin: c:\Projetos\mult-tarefas\muilt-tarefas\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 2150.7673000000004ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:37.586Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:37.586Z - [REQUEST]: 
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:37.586Z - [REQUEST]: 
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:37.628Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:37.646Z - Time taken for 'loadDefaultNxPlugins' 2431.5362999999998ms
+Time for 'nx/core/project-json:createNodes' 1.1021999999998116
+Time for 'nx/core/package-json:createNodes' 6.382399999999961
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 112.6563000000001
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:37.999Z - Time taken for 'build-project-configs' 235.45359999999982ms
+Time for 'build typescript dependencies' 560.3479000000002
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.150Z - [SYNC]: collect registered sync generators
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.207Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.208Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.210Z - Time taken for 'total for creating and serializing project graph' 3887.1529ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.684Z - Done responding to the client project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.684Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 3888. Response time: 476.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.705Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.707Z - Done responding to the client handleContextFileData
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.707Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 4. Response time: 3.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.711Z - Closed a connection. Number of open connections: 0
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.714Z - Established a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.715Z - Established a connection. Number of open connections: 2
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.716Z - Closed a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.716Z - Established a connection. Number of open connections: 2
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.717Z - Closed a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.717Z - Closed a connection. Number of open connections: 0
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.718Z - Established a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.762Z - Established a connection. Number of open connections: 2
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.850Z - Closed a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.858Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.859Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.895Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.895Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.897Z - Established a connection. Number of open connections: 2
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.898Z - Time taken for 'total for creating and serializing project graph' 37.87920000000031ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:39.901Z - Closed a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.163Z - Done responding to the client project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.163Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 37. Response time: 268.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.213Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.214Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.243Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.243Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.244Z - Time taken for 'total for creating and serializing project graph' 30.182200000000194ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.311Z - Done responding to the client project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.311Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 30. Response time: 68.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.383Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.387Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.410Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.411Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.412Z - Time taken for 'total for creating and serializing project graph' 27.573999999999614ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.475Z - Done responding to the client project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.475Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 28. Response time: 64.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.504Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.507Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.530Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.531Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.532Z - Time taken for 'total for creating and serializing project graph' 26.85490000000027ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.564Z - Done responding to the client project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.564Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 27. Response time: 33.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.610Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.611Z - Done responding to the client handleContextFileData
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.611Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:04:40.626Z - Closed a connection. Number of open connections: 0
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.017Z - Established a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.018Z - Closed a connection. Number of open connections: 0
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.019Z - Established a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.028Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.029Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.043Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.043Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.045Z - Time taken for 'total for creating and serializing project graph' 14.686700000005658ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.048Z - Done responding to the client project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.048Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 15. Response time: 5.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.060Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.060Z - Time taken for 'preTasksExecution' 0.9416000000055647ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.061Z - Done responding to the client handleRunPreTasksExecution
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.061Z - Handled json message PRE_TASKS_EXECUTION. Handling time: 1. Response time: 1.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.165Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.179Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+DEBUG nx::native::tasks::hash_planner: get_plans_internal COMPLETED in 5.0469ms - processed 1 tasks (setup: 3.55ms, parallel_planning: 1.4847ms)
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "1977621004843171350" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "16240817411487453555" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Hash Value: "13117815100717586239"
+DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 7.888ms - processed 1 plans (setup: 426µs, hashing: 7.4586ms, assembly: 3.5768ms)
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.207Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.207Z - Time taken for 'write cache' 13.845099999991362ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.208Z - Done responding to the client handleHashTasks
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:44.208Z - Handled json message HASH_TASKS. Handling time: 42. Response time: 2.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:45.924Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:45.925Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:45.925Z - Handled json message GET_ESTIMATED_TASK_TIMINGS. Handling time: 6. Response time: 1.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.459Z - Established a connection. Number of open connections: 2
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.460Z - Closed a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.461Z - Established a connection. Number of open connections: 2
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.464Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.465Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.477Z - Wrote project graph cache to c:\Projetos\mult-tarefas\muilt-tarefas\.nx\workspace-data\project-graph.json
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.478Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.479Z - Time taken for 'total for creating and serializing project graph' 13.52390000000014ms
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.482Z - Done responding to the client project-graph
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:49.482Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 14. Response time: 4.
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:56.638Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:57.909Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:57.962Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:58.013Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:58.161Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:05:58.316Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:38.200Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:38.259Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:38.498Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:38.914Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:38.996Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:39.408Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:39.612Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:39.857Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:39.982Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:40.337Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:40.531Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:40.825Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:41.019Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:41.159Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:41.313Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:41.544Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:41.605Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:06:41.681Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.708Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.759Z - Closed a connection. Number of open connections: 1
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.759Z - Closed a connection. Number of open connections: 0
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.778Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.780Z - [WATCHER]: Stopping the watcher for c:\Projetos\mult-tarefas\muilt-tarefas (sources)
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.790Z - [WATCHER]: Stopping the watcher for c:\Projetos\mult-tarefas\muilt-tarefas (sources)
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.796Z - [WATCHER]: 0 file(s) created or restored, 16 file(s) modified, 0 file(s) deleted
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.798Z - [WATCHER]: Stopping the watcher for c:\Projetos\mult-tarefas\muilt-tarefas (outputs)
+[NX v22.0.3 Daemon Server] - 2025-11-17T12:07:12.813Z - Server stopped because: "LOCK_FILES_CHANGED"
