@@ -1,10 +1,14 @@
 
-      <div class="topnav bg-blue-400">
-        <a routerLink="/" class="active">{{name}}</a>
-        <a routerLink="/" class="active">Home</a>
-        <a routerLink="/main">Main</a>
-        <a routerLink="/contact">Contact</a>
-        <a routerLink="/function">funções</a>
-        <a routerLink="/render-list">Render List</a>
-
-      </div>
+<div class="topnav">
+  <a routerLink="/" class="brand">{{name}}</a>
+  <a routerLink="/">Home</a>
+  <a routerLink="/main">Main</a>
+  <a routerLink="/contact">Contact</a>
+  <a routerLink="/function">funções</a>
+  <a routerLink="/render-list">Render List</a>
+  <a routerLink="/task">Lista-Tareas</a>
+  <div class="spacer"></div>
+  <mat-slide-toggle  (click)="toggleTheme()">
+    {{ theme === 'classic' ? 'Tema: Clássico' : 'Tema: Cyber' }}
+  </mat-slide-toggle>
+</div>

@@ -14,13 +14,7 @@ import { ListService } from '../../services/list.service';
   standalone: true
 })
 export class RenderListComponent implements OnInit {
-  animalDetails:string = ''
-    animals :Animal[] =[];
-    nome:string = ''
-    tipo:string = ''
-    idade:number = 0
-    hability1 :string = ''
-    hability2 :string = ''
+
 
  ngOnInit(): void {
 
@@ -28,27 +22,7 @@ export class RenderListComponent implements OnInit {
 
   }
   constructor(private listservice:ListService ){
-    this.getAnimal()
+   
   }
 
-  showAge(animal: Animal): void{
-    this.animalDetails = `o Pat ${animal.name} Tem ${animal.idade} anos`
-
-    }
-
- removeAnimal(animal:Animal){
- this.animals =  this.listservice.remove(this.animals,animal)
-
-
- }
-getAnimals():void{
-  this.listservice.getAll().subscribe((animals) => {
-    this.animals = animals
-  })
-}
-getAnimal():void{
-  this.listservice.getAll().subscribe((animals) => {
-   this.animals = animals
-  })
-}
 }

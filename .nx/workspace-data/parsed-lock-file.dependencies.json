@@ -616,7 +616,7 @@
   },
   {
     "source": "npm:@angular/build",
-    "target": "npm:vite",
+    "target": "npm:vite@6.2.6",
     "type": "static"
   },
   {
@@ -627,6 +627,56 @@
   {
     "source": "npm:@angular/build",
     "target": "npm:lmdb",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:@types/node",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:jiti",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:less",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:lightningcss",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:sass",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:terser",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:esbuild",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:postcss",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:rollup",
+    "type": "static"
+  },
+  {
+    "source": "npm:vite@6.2.6",
+    "target": "npm:fsevents",
     "type": "static"
   },
   {
@@ -1236,7 +1286,7 @@
   },
   {
     "source": "npm:@babel/helper-create-class-features-plugin",
-    "target": "npm:@babel/helper-annotate-as-pure@7.27.3",
+    "target": "npm:@babel/helper-annotate-as-pure",
     "type": "static"
   },
   {
@@ -1270,18 +1320,13 @@
     "type": "static"
   },
   {
-    "source": "npm:@babel/helper-annotate-as-pure@7.27.3",
-    "target": "npm:@babel/types",
-    "type": "static"
-  },
-  {
     "source": "npm:@babel/helper-create-regexp-features-plugin",
     "target": "npm:@babel/core",
     "type": "static"
   },
   {
     "source": "npm:@babel/helper-create-regexp-features-plugin",
-    "target": "npm:@babel/helper-annotate-as-pure@7.27.3",
+    "target": "npm:@babel/helper-annotate-as-pure",
     "type": "static"
   },
   {
@@ -1292,11 +1337,6 @@
   {
     "source": "npm:@babel/helper-create-regexp-features-plugin",
     "target": "npm:semver@6.3.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/helper-annotate-as-pure@7.27.3",
-    "target": "npm:@babel/types",
     "type": "static"
   },
   {
@@ -1381,7 +1421,7 @@
   },
   {
     "source": "npm:@babel/helper-remap-async-to-generator",
-    "target": "npm:@babel/helper-annotate-as-pure@7.27.3",
+    "target": "npm:@babel/helper-annotate-as-pure",
     "type": "static"
   },
   {
@@ -1392,11 +1432,6 @@
   {
     "source": "npm:@babel/helper-remap-async-to-generator",
     "target": "npm:@babel/traverse",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/helper-annotate-as-pure@7.27.3",
-    "target": "npm:@babel/types",
     "type": "static"
   },
   {
@@ -1535,41 +1570,11 @@
     "type": "static"
   },
   {
-    "source": "npm:@babel/plugin-proposal-decorators",
-    "target": "npm:@babel/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-proposal-decorators",
-    "target": "npm:@babel/helper-create-class-features-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-proposal-decorators",
-    "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-proposal-decorators",
-    "target": "npm:@babel/plugin-syntax-decorators",
-    "type": "static"
-  },
-  {
     "source": "npm:@babel/plugin-proposal-private-property-in-object",
     "target": "npm:@babel/core",
     "type": "static"
   },
   {
-    "source": "npm:@babel/plugin-syntax-decorators",
-    "target": "npm:@babel/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-syntax-decorators",
-    "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
     "source": "npm:@babel/plugin-syntax-import-assertions",
     "target": "npm:@babel/core",
     "type": "static"
@@ -1586,26 +1591,6 @@
   },
   {
     "source": "npm:@babel/plugin-syntax-import-attributes",
-    "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-syntax-jsx",
-    "target": "npm:@babel/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-syntax-jsx",
-    "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-syntax-typescript",
-    "target": "npm:@babel/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-syntax-typescript",
     "target": "npm:@babel/helper-plugin-utils",
     "type": "static"
   },
@@ -1731,17 +1716,12 @@
   },
   {
     "source": "npm:@babel/plugin-transform-classes",
-    "target": "npm:@babel/helper-annotate-as-pure@7.27.3",
+    "target": "npm:@babel/helper-annotate-as-pure",
     "type": "static"
   },
   {
     "source": "npm:@babel/plugin-transform-classes",
     "target": "npm:@babel/helper-compilation-targets",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-classes",
-    "target": "npm:@babel/helper-globals",
     "type": "static"
   },
   {
@@ -1760,8 +1740,8 @@
     "type": "static"
   },
   {
-    "source": "npm:@babel/helper-annotate-as-pure@7.27.3",
-    "target": "npm:@babel/types",
+    "source": "npm:@babel/plugin-transform-classes",
+    "target": "npm:globals",
     "type": "static"
   },
   {
@@ -1787,11 +1767,6 @@
   {
     "source": "npm:@babel/plugin-transform-destructuring",
     "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-destructuring",
-    "target": "npm:@babel/traverse",
     "type": "static"
   },
   {
@@ -2071,17 +2046,7 @@
   },
   {
     "source": "npm:@babel/plugin-transform-object-rest-spread",
-    "target": "npm:@babel/plugin-transform-destructuring",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-object-rest-spread",
     "target": "npm:@babel/plugin-transform-parameters",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-object-rest-spread",
-    "target": "npm:@babel/traverse",
     "type": "static"
   },
   {
@@ -2156,7 +2121,7 @@
   },
   {
     "source": "npm:@babel/plugin-transform-private-property-in-object",
-    "target": "npm:@babel/helper-annotate-as-pure@7.27.3",
+    "target": "npm:@babel/helper-annotate-as-pure",
     "type": "static"
   },
   {
@@ -2170,11 +2135,6 @@
     "type": "static"
   },
   {
-    "source": "npm:@babel/helper-annotate-as-pure@7.27.3",
-    "target": "npm:@babel/types",
-    "type": "static"
-  },
-  {
     "source": "npm:@babel/plugin-transform-property-literals",
     "target": "npm:@babel/core",
     "type": "static"
@@ -2192,6 +2152,11 @@
   {
     "source": "npm:@babel/plugin-transform-regenerator",
     "target": "npm:@babel/helper-plugin-utils",
+    "type": "static"
+  },
+  {
+    "source": "npm:@babel/plugin-transform-regenerator",
+    "target": "npm:regenerator-transform",
     "type": "static"
   },
   {
@@ -2307,41 +2272,6 @@
   {
     "source": "npm:@babel/plugin-transform-typeof-symbol",
     "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-typescript",
-    "target": "npm:@babel/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-typescript",
-    "target": "npm:@babel/helper-annotate-as-pure@7.27.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-typescript",
-    "target": "npm:@babel/helper-create-class-features-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-typescript",
-    "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-typescript",
-    "target": "npm:@babel/helper-skip-transparent-expression-wrappers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/plugin-transform-typescript",
-    "target": "npm:@babel/plugin-syntax-typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/helper-annotate-as-pure@7.27.3",
-    "target": "npm:@babel/types",
     "type": "static"
   },
   {
@@ -2770,36 +2700,6 @@
     "type": "static"
   },
   {
-    "source": "npm:@babel/preset-typescript",
-    "target": "npm:@babel/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/preset-typescript",
-    "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/preset-typescript",
-    "target": "npm:@babel/helper-validator-option",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/preset-typescript",
-    "target": "npm:@babel/plugin-syntax-jsx",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/preset-typescript",
-    "target": "npm:@babel/plugin-transform-modules-commonjs",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/preset-typescript",
-    "target": "npm:@babel/plugin-transform-typescript",
-    "type": "static"
-  },
-  {
     "source": "npm:@babel/runtime",
     "target": "npm:regenerator-runtime",
     "type": "static"
@@ -2826,12 +2726,7 @@
   },
   {
     "source": "npm:@babel/traverse",
-    "target": "npm:@babel/generator@7.28.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:@babel/traverse",
-    "target": "npm:@babel/helper-globals",
+    "target": "npm:@babel/generator@7.27.0",
     "type": "static"
   },
   {
@@ -2855,27 +2750,32 @@
     "type": "static"
   },
   {
-    "source": "npm:@babel/generator@7.28.5",
+    "source": "npm:@babel/traverse",
+    "target": "npm:globals",
+    "type": "static"
+  },
+  {
+    "source": "npm:@babel/generator@7.27.0",
     "target": "npm:@babel/parser",
     "type": "static"
   },
   {
-    "source": "npm:@babel/generator@7.28.5",
+    "source": "npm:@babel/generator@7.27.0",
     "target": "npm:@babel/types",
     "type": "static"
   },
   {
-    "source": "npm:@babel/generator@7.28.5",
+    "source": "npm:@babel/generator@7.27.0",
     "target": "npm:@jridgewell/gen-mapping",
     "type": "static"
   },
   {
-    "source": "npm:@babel/generator@7.28.5",
+    "source": "npm:@babel/generator@7.27.0",
     "target": "npm:@jridgewell/trace-mapping",
     "type": "static"
   },
   {
-    "source": "npm:@babel/generator@7.28.5",
+    "source": "npm:@babel/generator@7.27.0",
     "target": "npm:jsesc",
     "type": "static"
   },
@@ -2890,153 +2790,8 @@
     "type": "static"
   },
   {
-    "source": "npm:@emnapi/core",
-    "target": "npm:@emnapi/wasi-threads",
-    "type": "static"
-  },
-  {
-    "source": "npm:@emnapi/core",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@emnapi/runtime",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@emnapi/wasi-threads",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint-community/eslint-utils",
-    "target": "npm:eslint",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint-community/eslint-utils",
-    "target": "npm:eslint-visitor-keys",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/config-array",
-    "target": "npm:@eslint/object-schema",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/config-array",
-    "target": "npm:debug",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/config-array",
-    "target": "npm:minimatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/config-helpers",
-    "target": "npm:@eslint/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/core",
-    "target": "npm:@types/json-schema",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/eslintrc",
-    "target": "npm:ajv@6.12.6",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/eslintrc",
-    "target": "npm:debug",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/eslintrc",
-    "target": "npm:espree",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/eslintrc",
-    "target": "npm:globals",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/eslintrc",
-    "target": "npm:ignore@5.3.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/eslintrc",
-    "target": "npm:import-fresh",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/eslintrc",
-    "target": "npm:js-yaml",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/eslintrc",
-    "target": "npm:minimatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/eslintrc",
-    "target": "npm:strip-json-comments",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:fast-deep-equal",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:fast-json-stable-stringify",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:json-schema-traverse@0.4.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:uri-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/plugin-kit",
-    "target": "npm:@eslint/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@eslint/plugin-kit",
-    "target": "npm:levn",
-    "type": "static"
-  },
-  {
-    "source": "npm:@humanfs/node",
-    "target": "npm:@humanfs/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@humanfs/node",
-    "target": "npm:@humanwhocodes/retry",
-    "type": "static"
-  },
-  {
     "source": "npm:@inquirer/checkbox",
     "target": "npm:@types/node",
-    "type": "static"
-  },
-  {
-    "source": "npm:@inquirer/checkbox",
-    "target": "npm:@inquirer/ansi",
     "type": "static"
   },
   {
@@ -3052,6 +2807,11 @@
   {
     "source": "npm:@inquirer/checkbox",
     "target": "npm:@inquirer/type",
+    "type": "static"
+  },
+  {
+    "source": "npm:@inquirer/checkbox",
+    "target": "npm:ansi-escapes",
     "type": "static"
   },
   {
@@ -3081,17 +2841,17 @@
   },
   {
     "source": "npm:@inquirer/core",
-    "target": "npm:@inquirer/ansi",
-    "type": "static"
-  },
-  {
-    "source": "npm:@inquirer/core",
     "target": "npm:@inquirer/figures",
     "type": "static"
   },
   {
     "source": "npm:@inquirer/core",
     "target": "npm:@inquirer/type",
+    "type": "static"
+  },
+  {
+    "source": "npm:@inquirer/core",
+    "target": "npm:ansi-escapes",
     "type": "static"
   },
   {
@@ -3131,12 +2891,12 @@
   },
   {
     "source": "npm:@inquirer/editor",
-    "target": "npm:@inquirer/external-editor",
+    "target": "npm:@inquirer/type",
     "type": "static"
   },
   {
     "source": "npm:@inquirer/editor",
-    "target": "npm:@inquirer/type",
+    "target": "npm:external-editor",
     "type": "static"
   },
   {
@@ -3160,21 +2920,6 @@
     "type": "static"
   },
   {
-    "source": "npm:@inquirer/external-editor",
-    "target": "npm:@types/node",
-    "type": "static"
-  },
-  {
-    "source": "npm:@inquirer/external-editor",
-    "target": "npm:chardet",
-    "type": "static"
-  },
-  {
-    "source": "npm:@inquirer/external-editor",
-    "target": "npm:iconv-lite",
-    "type": "static"
-  },
-  {
     "source": "npm:@inquirer/input",
     "target": "npm:@types/node",
     "type": "static"
@@ -3211,17 +2956,17 @@
   },
   {
     "source": "npm:@inquirer/password",
-    "target": "npm:@inquirer/ansi",
-    "type": "static"
-  },
-  {
-    "source": "npm:@inquirer/password",
     "target": "npm:@inquirer/core",
     "type": "static"
   },
   {
     "source": "npm:@inquirer/password",
     "target": "npm:@inquirer/type",
+    "type": "static"
+  },
+  {
+    "source": "npm:@inquirer/password",
+    "target": "npm:ansi-escapes",
     "type": "static"
   },
   {
@@ -3331,11 +3076,6 @@
   },
   {
     "source": "npm:@inquirer/select",
-    "target": "npm:@inquirer/ansi",
-    "type": "static"
-  },
-  {
-    "source": "npm:@inquirer/select",
     "target": "npm:@inquirer/core",
     "type": "static"
   },
@@ -3347,6 +3087,11 @@
   {
     "source": "npm:@inquirer/select",
     "target": "npm:@inquirer/type",
+    "type": "static"
+  },
+  {
+    "source": "npm:@inquirer/select",
+    "target": "npm:ansi-escapes",
     "type": "static"
   },
   {
@@ -3406,7 +3151,7 @@
   },
   {
     "source": "npm:wrap-ansi@8.1.0",
-    "target": "npm:ansi-styles",
+    "target": "npm:ansi-styles@6.2.1",
     "type": "static"
   },
   {
@@ -3425,58 +3170,8 @@
     "type": "static"
   },
   {
-    "source": "npm:@jest/schemas",
-    "target": "npm:@sinclair/typebox",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jest/types",
-    "target": "npm:@jest/schemas@29.6.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jest/types",
-    "target": "npm:@types/istanbul-lib-coverage",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jest/types",
-    "target": "npm:@types/istanbul-reports",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jest/types",
-    "target": "npm:@types/node",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jest/types",
-    "target": "npm:@types/yargs",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jest/types",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jest/schemas@29.6.3",
-    "target": "npm:@sinclair/typebox@0.27.8",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
+    "source": "npm:@jridgewell/gen-mapping",
+    "target": "npm:@jridgewell/set-array",
     "type": "static"
   },
   {
@@ -3486,16 +3181,6 @@
   },
   {
     "source": "npm:@jridgewell/gen-mapping",
-    "target": "npm:@jridgewell/trace-mapping",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jridgewell/remapping",
-    "target": "npm:@jridgewell/gen-mapping",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jridgewell/remapping",
     "target": "npm:@jridgewell/trace-mapping",
     "type": "static"
   },
@@ -3525,16 +3210,6 @@
     "type": "static"
   },
   {
-    "source": "npm:@jsonjoy.com/buffers",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jsonjoy.com/codegen",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
     "source": "npm:@jsonjoy.com/json-pack",
     "target": "npm:tslib",
     "type": "static"
@@ -3542,21 +3217,6 @@
   {
     "source": "npm:@jsonjoy.com/json-pack",
     "target": "npm:@jsonjoy.com/base64",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jsonjoy.com/json-pack",
-    "target": "npm:@jsonjoy.com/buffers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jsonjoy.com/json-pack",
-    "target": "npm:@jsonjoy.com/codegen",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jsonjoy.com/json-pack",
-    "target": "npm:@jsonjoy.com/json-pointer",
     "type": "static"
   },
   {
@@ -3575,38 +3235,8 @@
     "type": "static"
   },
   {
-    "source": "npm:@jsonjoy.com/json-pack",
-    "target": "npm:tree-dump",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jsonjoy.com/json-pointer",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jsonjoy.com/json-pointer",
-    "target": "npm:@jsonjoy.com/codegen",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jsonjoy.com/json-pointer",
-    "target": "npm:@jsonjoy.com/util",
-    "type": "static"
-  },
-  {
     "source": "npm:@jsonjoy.com/util",
     "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jsonjoy.com/util",
-    "target": "npm:@jsonjoy.com/buffers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@jsonjoy.com/util",
-    "target": "npm:@jsonjoy.com/codegen",
     "type": "static"
   },
   {
@@ -3622,736 +3252,6 @@
   {
     "source": "npm:@inquirer/type@1.5.5",
     "target": "npm:mute-stream@1.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@modern-js/node-bundle-require",
-    "target": "npm:@modern-js/utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@modern-js/node-bundle-require",
-    "target": "npm:@swc/helpers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@modern-js/node-bundle-require",
-    "target": "npm:esbuild@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/aix-ppc64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/android-arm@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/android-arm64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/android-x64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/darwin-arm64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/darwin-x64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/freebsd-arm64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/freebsd-x64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/linux-arm@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/linux-arm64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/linux-ia32@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/linux-loong64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/linux-mips64el@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/linux-ppc64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/linux-riscv64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/linux-s390x@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/linux-x64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/netbsd-arm64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/netbsd-x64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/openbsd-arm64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/openbsd-x64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/sunos-x64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/win32-arm64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/win32-ia32@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:esbuild@0.25.5",
-    "target": "npm:@esbuild/win32-x64@0.25.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:@modern-js/utils",
-    "target": "npm:@swc/helpers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@modern-js/utils",
-    "target": "npm:caniuse-lite",
-    "type": "static"
-  },
-  {
-    "source": "npm:@modern-js/utils",
-    "target": "npm:lodash",
-    "type": "static"
-  },
-  {
-    "source": "npm:@modern-js/utils",
-    "target": "npm:rslog",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/bridge-react-webpack-plugin",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/bridge-react-webpack-plugin",
-    "target": "npm:@types/semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/bridge-react-webpack-plugin",
-    "target": "npm:semver@7.6.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/cli",
-    "target": "npm:@modern-js/node-bundle-require",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/cli",
-    "target": "npm:@module-federation/dts-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/cli",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/cli",
-    "target": "npm:chalk@3.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/cli",
-    "target": "npm:commander@11.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@3.0.0",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@3.0.0",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/data-prefetch",
-    "target": "npm:react",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/data-prefetch",
-    "target": "npm:react-dom",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/data-prefetch",
-    "target": "npm:@module-federation/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/data-prefetch",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/data-prefetch",
-    "target": "npm:fs-extra@9.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:at-least-node",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:jsonfile",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:universalify",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:@module-federation/error-codes",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:@module-federation/managers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:@module-federation/third-party-dts-extractor",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:adm-zip",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:ansi-colors",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:axios",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:chalk@3.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:fs-extra@9.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:isomorphic-ws",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:koa",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:lodash.clonedeepwith",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:log4js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:node-schedule",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:rambda",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/dts-plugin",
-    "target": "npm:ws@8.18.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@3.0.0",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@3.0.0",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:at-least-node",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:jsonfile",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:universalify",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:webpack",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/bridge-react-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/cli",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/data-prefetch",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/dts-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/error-codes",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/inject-external-runtime-core-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/managers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/manifest",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/rspack",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/runtime-tools",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:btoa",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:schema-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/enhanced",
-    "target": "npm:upath",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/inject-external-runtime-core-plugin",
-    "target": "npm:@module-federation/runtime-tools",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/managers",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/managers",
-    "target": "npm:find-pkg",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/managers",
-    "target": "npm:fs-extra@9.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:at-least-node",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:jsonfile",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:universalify",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/manifest",
-    "target": "npm:@module-federation/dts-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/manifest",
-    "target": "npm:@module-federation/managers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/manifest",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/manifest",
-    "target": "npm:chalk@3.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/manifest",
-    "target": "npm:find-pkg",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@3.0.0",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@3.0.0",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/node",
-    "target": "npm:react",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/node",
-    "target": "npm:react-dom",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/node",
-    "target": "npm:webpack",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/node",
-    "target": "npm:@module-federation/enhanced",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/node",
-    "target": "npm:@module-federation/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/node",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/node",
-    "target": "npm:btoa",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/node",
-    "target": "npm:encoding",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/node",
-    "target": "npm:node-fetch",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:@rspack/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:@module-federation/bridge-react-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:@module-federation/dts-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:@module-federation/inject-external-runtime-core-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:@module-federation/managers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:@module-federation/manifest",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:@module-federation/runtime-tools",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/rspack",
-    "target": "npm:btoa",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/runtime",
-    "target": "npm:@module-federation/error-codes",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/runtime",
-    "target": "npm:@module-federation/runtime-core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/runtime",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/runtime-core",
-    "target": "npm:@module-federation/error-codes",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/runtime-core",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/runtime-tools",
-    "target": "npm:@module-federation/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/runtime-tools",
-    "target": "npm:@module-federation/webpack-bundler-runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/third-party-dts-extractor",
-    "target": "npm:find-pkg",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/third-party-dts-extractor",
-    "target": "npm:fs-extra@9.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/third-party-dts-extractor",
-    "target": "npm:resolve@1.22.8",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:at-least-node",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:jsonfile",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@9.1.0",
-    "target": "npm:universalify",
-    "type": "static"
-  },
-  {
-    "source": "npm:resolve@1.22.8",
-    "target": "npm:is-core-module",
-    "type": "static"
-  },
-  {
-    "source": "npm:resolve@1.22.8",
-    "target": "npm:path-parse",
-    "type": "static"
-  },
-  {
-    "source": "npm:resolve@1.22.8",
-    "target": "npm:supports-preserve-symlinks-flag",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/webpack-bundler-runtime",
-    "target": "npm:@module-federation/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@module-federation/webpack-bundler-runtime",
-    "target": "npm:@module-federation/sdk",
     "type": "static"
   },
   {
@@ -4421,11 +3321,6 @@
   },
   {
     "source": "npm:@napi-rs/nice",
-    "target": "npm:@napi-rs/nice-openharmony-arm64",
-    "type": "static"
-  },
-  {
-    "source": "npm:@napi-rs/nice",
     "target": "npm:@napi-rs/nice-win32-arm64-msvc",
     "type": "static"
   },
@@ -4440,23 +3335,8 @@
     "type": "static"
   },
   {
-    "source": "npm:@napi-rs/wasm-runtime",
-    "target": "npm:@emnapi/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@napi-rs/wasm-runtime",
-    "target": "npm:@emnapi/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@napi-rs/wasm-runtime",
-    "target": "npm:@tybys/wasm-util",
-    "type": "static"
-  },
-  {
     "source": "npm:@netlify/angular-runtime",
-    "target": "npm:fs-extra",
+    "target": "npm:fs-extra@11.3.0",
     "type": "static"
   },
   {
@@ -4465,78 +3345,28 @@
     "type": "static"
   },
   {
-    "source": "npm:@ng-web-apis/common",
-    "target": "npm:@angular/common",
+    "source": "npm:fs-extra@11.3.0",
+    "target": "npm:graceful-fs",
     "type": "static"
   },
   {
-    "source": "npm:@ng-web-apis/common",
-    "target": "npm:@angular/core",
+    "source": "npm:fs-extra@11.3.0",
+    "target": "npm:jsonfile@6.1.0",
     "type": "static"
   },
   {
-    "source": "npm:@ng-web-apis/common",
-    "target": "npm:rxjs",
+    "source": "npm:fs-extra@11.3.0",
+    "target": "npm:universalify@2.0.1",
     "type": "static"
   },
   {
-    "source": "npm:@ng-web-apis/common",
-    "target": "npm:tslib",
+    "source": "npm:jsonfile@6.1.0",
+    "target": "npm:universalify@2.0.1",
     "type": "static"
   },
   {
-    "source": "npm:@ng-web-apis/mutation-observer",
-    "target": "npm:@angular/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/mutation-observer",
-    "target": "npm:@ng-web-apis/common",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/mutation-observer",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/platform",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/resize-observer",
-    "target": "npm:@angular/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/resize-observer",
-    "target": "npm:@ng-web-apis/common",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/resize-observer",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/screen-orientation",
-    "target": "npm:@angular/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/screen-orientation",
-    "target": "npm:@ng-web-apis/common",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/screen-orientation",
-    "target": "npm:rxjs",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ng-web-apis/screen-orientation",
-    "target": "npm:tslib",
+    "source": "npm:jsonfile@6.1.0",
+    "target": "npm:graceful-fs",
     "type": "static"
   },
   {
@@ -4695,7 +3525,7 @@
     "type": "static"
   },
   {
-    "source": "npm:brace-expansion@2.0.2",
+    "source": "npm:brace-expansion@2.0.1",
     "target": "npm:balanced-match",
     "type": "static"
   },
@@ -4731,7 +3561,7 @@
   },
   {
     "source": "npm:minimatch@9.0.5",
-    "target": "npm:brace-expansion@2.0.2",
+    "target": "npm:brace-expansion@2.0.1",
     "type": "static"
   },
   {
@@ -4777,1551 +3607,6 @@
   {
     "source": "npm:which@5.0.0",
     "target": "npm:isexe@3.1.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@angular-devkit/build-angular",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@angular-devkit/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@angular-devkit/schematics",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@angular/build",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@schematics/angular",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:rxjs",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@nx/devkit",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@nx/eslint",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@nx/js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@nx/module-federation",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@nx/rspack",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@nx/web",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@nx/webpack",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@nx/workspace",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@phenomnomnominal/tsquery",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:@typescript-eslint/type-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:enquirer",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:magic-string",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:picomatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/angular",
-    "target": "npm:webpack-merge@5.10.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack-merge@5.10.0",
-    "target": "npm:clone-deep",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack-merge@5.10.0",
-    "target": "npm:flat",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack-merge@5.10.0",
-    "target": "npm:wildcard",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/devkit",
-    "target": "npm:nx",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/devkit",
-    "target": "npm:@zkochan/js-yaml",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/devkit",
-    "target": "npm:ejs",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/devkit",
-    "target": "npm:enquirer",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/devkit",
-    "target": "npm:minimatch@9.0.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/devkit",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/devkit",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/devkit",
-    "target": "npm:yargs-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:brace-expansion@2.0.2",
-    "target": "npm:balanced-match",
-    "type": "static"
-  },
-  {
-    "source": "npm:minimatch@9.0.3",
-    "target": "npm:brace-expansion@2.0.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/eslint",
-    "target": "npm:@zkochan/js-yaml",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/eslint",
-    "target": "npm:eslint",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/eslint",
-    "target": "npm:@nx/devkit",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/eslint",
-    "target": "npm:@nx/js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/eslint",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/eslint",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/eslint",
-    "target": "npm:typescript@5.9.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@babel/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@babel/plugin-proposal-decorators",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@babel/plugin-transform-class-properties",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@babel/plugin-transform-runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@babel/preset-env",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@babel/preset-typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@babel/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@nx/devkit",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@nx/workspace",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:@zkochan/js-yaml",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:babel-plugin-const-enum",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:babel-plugin-macros",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:babel-plugin-transform-typescript-metadata",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:columnify",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:detect-port",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:ignore@5.3.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:js-tokens",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:jsonc-parser@3.2.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:npm-run-path",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:picomatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:source-map-support@0.5.19",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:tinyglobby",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/js",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:source-map-support@0.5.19",
-    "target": "npm:buffer-from",
-    "type": "static"
-  },
-  {
-    "source": "npm:source-map-support@0.5.19",
-    "target": "npm:source-map@0.6.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:@module-federation/enhanced",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:@module-federation/node",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:@module-federation/sdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:@nx/devkit",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:@nx/js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:@nx/web",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:@rspack/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:express",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:http-proxy-middleware",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/module-federation",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:watchpack@2.4.4",
-    "target": "npm:glob-to-regexp",
-    "type": "static"
-  },
-  {
-    "source": "npm:watchpack@2.4.4",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@types/eslint-scope",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@types/estree@1.0.8",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@types/json-schema",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@webassemblyjs/ast",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@webassemblyjs/wasm-edit",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@webassemblyjs/wasm-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:acorn",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:acorn-import-phases",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:chrome-trace-event",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:enhanced-resolve",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:es-module-lexer",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:eslint-scope",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:events",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:glob-to-regexp",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:json-parse-even-better-errors@2.3.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:loader-runner",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:mime-types",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:neo-async",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:schema-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:tapable",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:terser-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:watchpack@2.4.4",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:webpack-sources",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@module-federation/enhanced",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@module-federation/node",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@nx/devkit",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@nx/js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@nx/module-federation",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@nx/web",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@phenomnomnominal/tsquery",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@rspack/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@rspack/dev-server",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:@rspack/plugin-react-refresh",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:autoprefixer",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:css-loader@6.11.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:enquirer",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:express",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:http-proxy-middleware",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:less-loader@11.1.4",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:license-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:loader-utils@2.0.4",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:parse5@4.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:postcss-import",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:postcss-loader",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:sass",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:sass-embedded",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:sass-loader",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:source-map-loader",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:style-loader",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:ts-checker-rspack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/rspack",
-    "target": "npm:webpack-node-externals",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:@rspack/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:icss-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-modules-extract-imports",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-modules-local-by-default",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-modules-scope",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-modules-values",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:less-loader@11.1.4",
-    "target": "npm:less",
-    "type": "static"
-  },
-  {
-    "source": "npm:less-loader@11.1.4",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:loader-utils@2.0.4",
-    "target": "npm:big.js",
-    "type": "static"
-  },
-  {
-    "source": "npm:loader-utils@2.0.4",
-    "target": "npm:emojis-list",
-    "type": "static"
-  },
-  {
-    "source": "npm:loader-utils@2.0.4",
-    "target": "npm:json5",
-    "type": "static"
-  },
-  {
-    "source": "npm:watchpack@2.4.4",
-    "target": "npm:glob-to-regexp",
-    "type": "static"
-  },
-  {
-    "source": "npm:watchpack@2.4.4",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@types/eslint-scope",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@types/estree@1.0.8",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@types/json-schema",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@webassemblyjs/ast",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@webassemblyjs/wasm-edit",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@webassemblyjs/wasm-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:acorn",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:acorn-import-phases",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:chrome-trace-event",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:enhanced-resolve",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:es-module-lexer",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:eslint-scope",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:events",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:glob-to-regexp",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:json-parse-even-better-errors@2.3.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:loader-runner",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:mime-types",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:neo-async",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:schema-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:tapable",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:terser-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:watchpack@2.4.4",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:webpack-sources",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/web",
-    "target": "npm:@nx/devkit",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/web",
-    "target": "npm:@nx/js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/web",
-    "target": "npm:detect-port",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/web",
-    "target": "npm:http-server",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/web",
-    "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/web",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:@babel/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:@nx/devkit",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:@nx/js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:@phenomnomnominal/tsquery",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:ajv",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:autoprefixer",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:babel-loader",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:copy-webpack-plugin@10.2.4",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:css-loader@6.11.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:css-minimizer-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:fork-ts-checker-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:less",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:less-loader@11.1.4",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:license-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:loader-utils@2.0.4",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:mini-css-extract-plugin@2.4.7",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:parse5@4.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:postcss-import",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:postcss-loader@6.2.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:rxjs",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:sass",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:sass-embedded",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:sass-loader",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:source-map-loader",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:style-loader",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:terser-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:ts-loader",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:tsconfig-paths-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:webpack-dev-server",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:webpack-node-externals",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/webpack",
-    "target": "npm:webpack-subresource-integrity",
-    "type": "static"
-  },
-  {
-    "source": "npm:copy-webpack-plugin@10.2.4",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:copy-webpack-plugin@10.2.4",
-    "target": "npm:fast-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:copy-webpack-plugin@10.2.4",
-    "target": "npm:glob-parent",
-    "type": "static"
-  },
-  {
-    "source": "npm:copy-webpack-plugin@10.2.4",
-    "target": "npm:globby@12.2.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:copy-webpack-plugin@10.2.4",
-    "target": "npm:normalize-path",
-    "type": "static"
-  },
-  {
-    "source": "npm:copy-webpack-plugin@10.2.4",
-    "target": "npm:schema-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:copy-webpack-plugin@10.2.4",
-    "target": "npm:serialize-javascript",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:@types/parse-json",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:import-fresh",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:parse-json",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:path-type@4.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:yaml@1.10.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:@rspack/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:icss-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-modules-extract-imports",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-modules-local-by-default",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-modules-scope",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-modules-values",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader@6.11.0",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:globby@12.2.0",
-    "target": "npm:array-union@3.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:globby@12.2.0",
-    "target": "npm:dir-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:globby@12.2.0",
-    "target": "npm:fast-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:globby@12.2.0",
-    "target": "npm:ignore@5.3.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:globby@12.2.0",
-    "target": "npm:merge2",
-    "type": "static"
-  },
-  {
-    "source": "npm:globby@12.2.0",
-    "target": "npm:slash@4.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:less-loader@11.1.4",
-    "target": "npm:less",
-    "type": "static"
-  },
-  {
-    "source": "npm:less-loader@11.1.4",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:loader-utils@2.0.4",
-    "target": "npm:big.js",
-    "type": "static"
-  },
-  {
-    "source": "npm:loader-utils@2.0.4",
-    "target": "npm:emojis-list",
-    "type": "static"
-  },
-  {
-    "source": "npm:loader-utils@2.0.4",
-    "target": "npm:json5",
-    "type": "static"
-  },
-  {
-    "source": "npm:mini-css-extract-plugin@2.4.7",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:mini-css-extract-plugin@2.4.7",
-    "target": "npm:schema-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-loader@6.2.1",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-loader@6.2.1",
-    "target": "npm:webpack@5.102.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-loader@6.2.1",
-    "target": "npm:cosmiconfig@7.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-loader@6.2.1",
-    "target": "npm:klona",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-loader@6.2.1",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:watchpack@2.4.4",
-    "target": "npm:glob-to-regexp",
-    "type": "static"
-  },
-  {
-    "source": "npm:watchpack@2.4.4",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@types/eslint-scope",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@types/estree@1.0.8",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@types/json-schema",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@webassemblyjs/ast",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@webassemblyjs/wasm-edit",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:@webassemblyjs/wasm-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:acorn",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:acorn-import-phases",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:chrome-trace-event",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:enhanced-resolve",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:es-module-lexer",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:eslint-scope",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:events",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:glob-to-regexp",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:json-parse-even-better-errors@2.3.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:loader-runner",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:mime-types",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:neo-async",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:schema-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:tapable",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:terser-webpack-plugin",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:watchpack@2.4.4",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack@5.102.1",
-    "target": "npm:webpack-sources",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/workspace",
-    "target": "npm:@nx/devkit",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/workspace",
-    "target": "npm:@zkochan/js-yaml",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/workspace",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/workspace",
-    "target": "npm:enquirer",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/workspace",
-    "target": "npm:nx",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/workspace",
-    "target": "npm:picomatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/workspace",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/workspace",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@nx/workspace",
-    "target": "npm:yargs-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
     "type": "static"
   },
   {
@@ -6410,216 +3695,6 @@
     "type": "static"
   },
   {
-    "source": "npm:@phenomnomnominal/tsquery",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@phenomnomnominal/tsquery",
-    "target": "npm:esquery",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-darwin-arm64",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-darwin-x64",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-linux-arm64-gnu",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-linux-arm64-musl",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-linux-x64-gnu",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-linux-x64-musl",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-wasm32-wasi",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-win32-arm64-msvc",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-win32-ia32-msvc",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding",
-    "target": "npm:@rspack/binding-win32-x64-msvc",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/binding-wasm32-wasi",
-    "target": "npm:@napi-rs/wasm-runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/core",
-    "target": "npm:@swc/helpers",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/core",
-    "target": "npm:@module-federation/runtime-tools",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/core",
-    "target": "npm:@rspack/binding",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/core",
-    "target": "npm:@rspack/lite-tapable",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/dev-server",
-    "target": "npm:@rspack/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/dev-server",
-    "target": "npm:chokidar@3.6.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/dev-server",
-    "target": "npm:http-proxy-middleware@2.0.9",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/dev-server",
-    "target": "npm:p-retry",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/dev-server",
-    "target": "npm:webpack-dev-server",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/dev-server",
-    "target": "npm:ws@8.18.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:anymatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:braces",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:glob-parent@5.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:is-binary-path",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:normalize-path",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:readdirp@3.6.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:fsevents",
-    "type": "static"
-  },
-  {
-    "source": "npm:glob-parent@5.1.2",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-proxy-middleware@2.0.9",
-    "target": "npm:@types/express",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-proxy-middleware@2.0.9",
-    "target": "npm:@types/http-proxy",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-proxy-middleware@2.0.9",
-    "target": "npm:http-proxy",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-proxy-middleware@2.0.9",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-proxy-middleware@2.0.9",
-    "target": "npm:is-plain-obj",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-proxy-middleware@2.0.9",
-    "target": "npm:micromatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:readdirp@3.6.0",
-    "target": "npm:picomatch@2.3.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/plugin-react-refresh",
-    "target": "npm:react-refresh",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/plugin-react-refresh",
-    "target": "npm:error-stack-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:@rspack/plugin-react-refresh",
-    "target": "npm:html-entities",
-    "type": "static"
-  },
-  {
     "source": "npm:@schematics/angular",
     "target": "npm:@angular-devkit/core",
     "type": "static"
@@ -6695,58 +3770,13 @@
     "type": "static"
   },
   {
-    "source": "npm:@swc/helpers",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/event-plugins",
-    "target": "npm:@angular/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/event-plugins",
-    "target": "npm:@angular/platform-browser",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/event-plugins",
-    "target": "npm:rxjs",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/event-plugins",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/polymorpheus",
-    "target": "npm:@angular/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/polymorpheus",
-    "target": "npm:@angular/platform-browser",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/polymorpheus",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tailwindcss/node",
-    "target": "npm:@jridgewell/remapping",
-    "type": "static"
-  },
-  {
     "source": "npm:@tailwindcss/node",
     "target": "npm:enhanced-resolve",
     "type": "static"
   },
   {
     "source": "npm:@tailwindcss/node",
-    "target": "npm:jiti",
+    "target": "npm:jiti@2.4.2",
     "type": "static"
   },
   {
@@ -6756,22 +3786,7 @@
   },
   {
     "source": "npm:@tailwindcss/node",
-    "target": "npm:magic-string@0.30.21",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tailwindcss/node",
-    "target": "npm:source-map-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tailwindcss/node",
     "target": "npm:tailwindcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:magic-string@0.30.21",
-    "target": "npm:@jridgewell/sourcemap-codec",
     "type": "static"
   },
   {
@@ -6836,31 +3851,6 @@
   },
   {
     "source": "npm:@tailwindcss/oxide-wasm32-wasi",
-    "target": "npm:@emnapi/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tailwindcss/oxide-wasm32-wasi",
-    "target": "npm:@emnapi/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tailwindcss/oxide-wasm32-wasi",
-    "target": "npm:@emnapi/wasi-threads",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tailwindcss/oxide-wasm32-wasi",
-    "target": "npm:@napi-rs/wasm-runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tailwindcss/oxide-wasm32-wasi",
-    "target": "npm:@tybys/wasm-util",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tailwindcss/oxide-wasm32-wasi",
     "target": "npm:tslib",
     "type": "static"
   },
@@ -6891,7 +3881,7 @@
   },
   {
     "source": "npm:@tinyhttp/accepts",
-    "target": "npm:mime",
+    "target": "npm:mime@4.0.4",
     "type": "static"
   },
   {
@@ -6961,7 +3951,7 @@
   },
   {
     "source": "npm:@tinyhttp/proxy-addr",
-    "target": "npm:ipaddr.js",
+    "target": "npm:ipaddr.js@2.2.0",
     "type": "static"
   },
   {
@@ -7026,7 +4016,7 @@
   },
   {
     "source": "npm:@tinyhttp/res",
-    "target": "npm:mime",
+    "target": "npm:mime@4.0.4",
     "type": "static"
   },
   {
@@ -7041,7 +4031,7 @@
   },
   {
     "source": "npm:@tinyhttp/send",
-    "target": "npm:mime",
+    "target": "npm:mime@4.0.4",
     "type": "static"
   },
   {
@@ -7051,37 +4041,7 @@
   },
   {
     "source": "npm:@tinyhttp/type-is",
-    "target": "npm:mime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ts-morph/common",
-    "target": "npm:fast-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ts-morph/common",
-    "target": "npm:minimatch@9.0.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ts-morph/common",
-    "target": "npm:mkdirp@3.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:@ts-morph/common",
-    "target": "npm:path-browserify",
-    "type": "static"
-  },
-  {
-    "source": "npm:brace-expansion@2.0.2",
-    "target": "npm:balanced-match",
-    "type": "static"
-  },
-  {
-    "source": "npm:minimatch@9.0.5",
-    "target": "npm:brace-expansion@2.0.2",
+    "target": "npm:mime@4.0.4",
     "type": "static"
   },
   {
@@ -7095,18 +4055,13 @@
     "type": "static"
   },
   {
-    "source": "npm:brace-expansion@2.0.2",
+    "source": "npm:brace-expansion@2.0.1",
     "target": "npm:balanced-match",
     "type": "static"
   },
   {
     "source": "npm:minimatch@9.0.5",
-    "target": "npm:brace-expansion@2.0.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tybys/wasm-util",
-    "target": "npm:tslib",
+    "target": "npm:brace-expansion@2.0.1",
     "type": "static"
   },
   {
@@ -7210,16 +4165,6 @@
     "type": "static"
   },
   {
-    "source": "npm:@types/istanbul-lib-report",
-    "target": "npm:@types/istanbul-lib-coverage",
-    "type": "static"
-  },
-  {
-    "source": "npm:@types/istanbul-reports",
-    "target": "npm:@types/istanbul-lib-report",
-    "type": "static"
-  },
-  {
     "source": "npm:@types/node",
     "target": "npm:undici-types",
     "type": "static"
@@ -7227,6 +4172,11 @@
   {
     "source": "npm:@types/node-forge",
     "target": "npm:@types/node",
+    "type": "static"
+  },
+  {
+    "source": "npm:@types/send",
+    "target": "npm:@types/mime",
     "type": "static"
   },
   {
@@ -7251,17 +4201,7 @@
   },
   {
     "source": "npm:@types/serve-static",
-    "target": "npm:@types/send@0.17.6",
-    "type": "static"
-  },
-  {
-    "source": "npm:@types/send@0.17.6",
-    "target": "npm:@types/mime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@types/send@0.17.6",
-    "target": "npm:@types/node",
+    "target": "npm:@types/send",
     "type": "static"
   },
   {
@@ -7272,186 +4212,6 @@
   {
     "source": "npm:@types/ws",
     "target": "npm:@types/node",
-    "type": "static"
-  },
-  {
-    "source": "npm:@types/yargs",
-    "target": "npm:@types/yargs-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/project-service",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/project-service",
-    "target": "npm:@typescript-eslint/tsconfig-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/project-service",
-    "target": "npm:@typescript-eslint/types",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/project-service",
-    "target": "npm:debug",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/scope-manager",
-    "target": "npm:@typescript-eslint/types",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/scope-manager",
-    "target": "npm:@typescript-eslint/visitor-keys",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/tsconfig-utils",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/type-utils",
-    "target": "npm:eslint",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/type-utils",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/type-utils",
-    "target": "npm:@typescript-eslint/types",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/type-utils",
-    "target": "npm:@typescript-eslint/typescript-estree",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/type-utils",
-    "target": "npm:@typescript-eslint/utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/type-utils",
-    "target": "npm:debug",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/type-utils",
-    "target": "npm:ts-api-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:@typescript-eslint/project-service",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:@typescript-eslint/tsconfig-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:@typescript-eslint/types",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:@typescript-eslint/visitor-keys",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:debug",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:fast-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:minimatch@9.0.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/typescript-estree",
-    "target": "npm:ts-api-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:brace-expansion@2.0.2",
-    "target": "npm:balanced-match",
-    "type": "static"
-  },
-  {
-    "source": "npm:minimatch@9.0.5",
-    "target": "npm:brace-expansion@2.0.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/utils",
-    "target": "npm:eslint",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/utils",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/utils",
-    "target": "npm:@eslint-community/eslint-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/utils",
-    "target": "npm:@typescript-eslint/scope-manager",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/utils",
-    "target": "npm:@typescript-eslint/types",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/utils",
-    "target": "npm:@typescript-eslint/typescript-estree",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/visitor-keys",
-    "target": "npm:@typescript-eslint/types",
-    "type": "static"
-  },
-  {
-    "source": "npm:@typescript-eslint/visitor-keys",
-    "target": "npm:eslint-visitor-keys@4.2.1",
     "type": "static"
   },
   {
@@ -7640,36 +4400,6 @@
     "type": "static"
   },
   {
-    "source": "npm:@yarnpkg/parsers",
-    "target": "npm:js-yaml@3.14.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:@yarnpkg/parsers",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:argparse@1.0.10",
-    "target": "npm:sprintf-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:js-yaml@3.14.2",
-    "target": "npm:argparse@1.0.10",
-    "type": "static"
-  },
-  {
-    "source": "npm:js-yaml@3.14.2",
-    "target": "npm:esprima",
-    "type": "static"
-  },
-  {
-    "source": "npm:@zkochan/js-yaml",
-    "target": "npm:argparse",
-    "type": "static"
-  },
-  {
     "source": "npm:accepts",
     "target": "npm:mime-types",
     "type": "static"
@@ -7677,16 +4407,6 @@
   {
     "source": "npm:accepts",
     "target": "npm:negotiator",
-    "type": "static"
-  },
-  {
-    "source": "npm:acorn-import-phases",
-    "target": "npm:acorn",
-    "type": "static"
-  },
-  {
-    "source": "npm:acorn-jsx",
-    "target": "npm:acorn",
     "type": "static"
   },
   {
@@ -7756,7 +4476,12 @@
   },
   {
     "source": "npm:ansi-escapes",
-    "target": "npm:environment",
+    "target": "npm:type-fest",
+    "type": "static"
+  },
+  {
+    "source": "npm:ansi-styles",
+    "target": "npm:color-convert",
     "type": "static"
   },
   {
@@ -7805,21 +4530,6 @@
     "type": "static"
   },
   {
-    "source": "npm:axios",
-    "target": "npm:follow-redirects",
-    "type": "static"
-  },
-  {
-    "source": "npm:axios",
-    "target": "npm:form-data",
-    "type": "static"
-  },
-  {
-    "source": "npm:axios",
-    "target": "npm:proxy-from-env",
-    "type": "static"
-  },
-  {
     "source": "npm:babel-loader",
     "target": "npm:@babel/core",
     "type": "static"
@@ -7837,66 +4547,6 @@
   {
     "source": "npm:babel-loader",
     "target": "npm:schema-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:babel-plugin-const-enum",
-    "target": "npm:@babel/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:babel-plugin-const-enum",
-    "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:babel-plugin-const-enum",
-    "target": "npm:@babel/plugin-syntax-typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:babel-plugin-const-enum",
-    "target": "npm:@babel/traverse",
-    "type": "static"
-  },
-  {
-    "source": "npm:babel-plugin-macros",
-    "target": "npm:@babel/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:babel-plugin-macros",
-    "target": "npm:cosmiconfig@7.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:babel-plugin-macros",
-    "target": "npm:resolve",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:@types/parse-json",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:import-fresh",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:parse-json",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:path-type@4.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:yaml@1.10.2",
     "type": "static"
   },
   {
@@ -7942,16 +4592,6 @@
   {
     "source": "npm:babel-plugin-polyfill-regenerator",
     "target": "npm:@babel/helper-define-polyfill-provider",
-    "type": "static"
-  },
-  {
-    "source": "npm:babel-plugin-transform-typescript-metadata",
-    "target": "npm:@babel/helper-plugin-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:basic-auth",
-    "target": "npm:safe-buffer@5.1.2",
     "type": "static"
   },
   {
@@ -8041,7 +4681,7 @@
   },
   {
     "source": "npm:body-parser",
-    "target": "npm:iconv-lite@0.4.24",
+    "target": "npm:iconv-lite",
     "type": "static"
   },
   {
@@ -8075,11 +4715,6 @@
     "type": "static"
   },
   {
-    "source": "npm:iconv-lite@0.4.24",
-    "target": "npm:safer-buffer",
-    "type": "static"
-  },
-  {
     "source": "npm:bonjour-service",
     "target": "npm:fast-deep-equal",
     "type": "static"
@@ -8102,11 +4737,6 @@
   {
     "source": "npm:braces",
     "target": "npm:fill-range",
-    "type": "static"
-  },
-  {
-    "source": "npm:browserslist",
-    "target": "npm:baseline-browser-mapping",
     "type": "static"
   },
   {
@@ -8196,7 +4826,7 @@
   },
   {
     "source": "npm:cacache",
-    "target": "npm:tar@7.5.2",
+    "target": "npm:tar@7.4.3",
     "type": "static"
   },
   {
@@ -8205,7 +4835,7 @@
     "type": "static"
   },
   {
-    "source": "npm:brace-expansion@2.0.2",
+    "source": "npm:brace-expansion@2.0.1",
     "target": "npm:balanced-match",
     "type": "static"
   },
@@ -8241,31 +4871,36 @@
   },
   {
     "source": "npm:minimatch@9.0.5",
-    "target": "npm:brace-expansion@2.0.2",
+    "target": "npm:brace-expansion@2.0.1",
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
     "target": "npm:@isaacs/fs-minipass",
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
     "target": "npm:chownr@3.0.0",
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
     "target": "npm:minipass",
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
     "target": "npm:minizlib",
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
+    "target": "npm:mkdirp@3.0.1",
+    "type": "static"
+  },
+  {
+    "source": "npm:tar@7.4.3",
     "target": "npm:yallist@5.0.0",
     "type": "static"
   },
@@ -8290,63 +4925,13 @@
     "type": "static"
   },
   {
-    "source": "npm:caniuse-api",
-    "target": "npm:browserslist",
+    "source": "npm:chalk",
+    "target": "npm:ansi-styles",
     "type": "static"
   },
   {
-    "source": "npm:caniuse-api",
-    "target": "npm:caniuse-lite",
-    "type": "static"
-  },
-  {
-    "source": "npm:caniuse-api",
-    "target": "npm:lodash.memoize",
-    "type": "static"
-  },
-  {
-    "source": "npm:caniuse-api",
-    "target": "npm:lodash.uniq",
-    "type": "static"
-  },
-  {
-    "source": "npm:canvg",
-    "target": "npm:@babel/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:canvg",
-    "target": "npm:@types/raf",
-    "type": "static"
-  },
-  {
-    "source": "npm:canvg",
-    "target": "npm:core-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:canvg",
-    "target": "npm:raf",
-    "type": "static"
-  },
-  {
-    "source": "npm:canvg",
-    "target": "npm:regenerator-runtime@0.13.11",
-    "type": "static"
-  },
-  {
-    "source": "npm:canvg",
-    "target": "npm:rgbcolor",
-    "type": "static"
-  },
-  {
-    "source": "npm:canvg",
-    "target": "npm:stackblur-canvas",
-    "type": "static"
-  },
-  {
-    "source": "npm:canvg",
-    "target": "npm:svg-pathdata",
+    "source": "npm:chalk",
+    "target": "npm:supports-color",
     "type": "static"
   },
   {
@@ -8385,11 +4970,6 @@
     "type": "static"
   },
   {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
     "source": "npm:string-width@4.2.3",
     "target": "npm:emoji-regex@8.0.0",
     "type": "static"
@@ -8411,7 +4991,7 @@
   },
   {
     "source": "npm:wrap-ansi@7.0.0",
-    "target": "npm:ansi-styles@4.3.0",
+    "target": "npm:ansi-styles",
     "type": "static"
   },
   {
@@ -8447,26 +5027,6 @@
   {
     "source": "npm:color-convert",
     "target": "npm:color-name",
-    "type": "static"
-  },
-  {
-    "source": "npm:columnify",
-    "target": "npm:strip-ansi@6.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:columnify",
-    "target": "npm:wcwidth",
-    "type": "static"
-  },
-  {
-    "source": "npm:strip-ansi@6.0.1",
-    "target": "npm:ansi-regex@5.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:combined-stream",
-    "target": "npm:delayed-stream",
     "type": "static"
   },
   {
@@ -8585,16 +5145,6 @@
     "type": "static"
   },
   {
-    "source": "npm:cookies",
-    "target": "npm:depd",
-    "type": "static"
-  },
-  {
-    "source": "npm:cookies",
-    "target": "npm:keygrip",
-    "type": "static"
-  },
-  {
     "source": "npm:copy-anything",
     "target": "npm:is-what",
     "type": "static"
@@ -8675,11 +5225,6 @@
     "type": "static"
   },
   {
-    "source": "npm:cron-parser",
-    "target": "npm:luxon",
-    "type": "static"
-  },
-  {
     "source": "npm:cross-spawn",
     "target": "npm:path-key",
     "type": "static"
@@ -8697,21 +5242,6 @@
   {
     "source": "npm:which@2.0.2",
     "target": "npm:isexe",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-declaration-sorter",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-line-break",
-    "target": "npm:utrie",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-loader",
-    "target": "npm:@rspack/core",
     "type": "static"
   },
   {
@@ -8760,66 +5290,6 @@
     "type": "static"
   },
   {
-    "source": "npm:css-minimizer-webpack-plugin",
-    "target": "npm:webpack",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-minimizer-webpack-plugin",
-    "target": "npm:@jridgewell/trace-mapping",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-minimizer-webpack-plugin",
-    "target": "npm:cssnano",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-minimizer-webpack-plugin",
-    "target": "npm:jest-worker@29.7.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-minimizer-webpack-plugin",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-minimizer-webpack-plugin",
-    "target": "npm:schema-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-minimizer-webpack-plugin",
-    "target": "npm:serialize-javascript",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-worker@29.7.0",
-    "target": "npm:@types/node",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-worker@29.7.0",
-    "target": "npm:jest-util",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-worker@29.7.0",
-    "target": "npm:merge-stream",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-worker@29.7.0",
-    "target": "npm:supports-color@8.1.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:supports-color@8.1.1",
-    "target": "npm:has-flag",
-    "type": "static"
-  },
-  {
     "source": "npm:css-select",
     "target": "npm:boolbase",
     "type": "static"
@@ -8845,206 +5315,6 @@
     "type": "static"
   },
   {
-    "source": "npm:css-tree",
-    "target": "npm:mdn-data",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-tree",
-    "target": "npm:source-map-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano",
-    "target": "npm:cssnano-preset-default",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano",
-    "target": "npm:lilconfig",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:css-declaration-sorter",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:cssnano-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-calc",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-colormin",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-convert-values",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-discard-comments",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-discard-duplicates",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-discard-empty",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-discard-overridden",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-merge-longhand",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-merge-rules",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-minify-font-values",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-minify-gradients",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-minify-params",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-minify-selectors",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-normalize-charset",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-normalize-display-values",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-normalize-positions",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-normalize-repeat-style",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-normalize-string",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-normalize-timing-functions",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-normalize-unicode",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-normalize-url",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-normalize-whitespace",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-ordered-values",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-reduce-initial",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-reduce-transforms",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-svgo",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-preset-default",
-    "target": "npm:postcss-unique-selectors",
-    "type": "static"
-  },
-  {
-    "source": "npm:cssnano-utils",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:csso",
-    "target": "npm:css-tree@2.2.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-tree@2.2.1",
-    "target": "npm:mdn-data@2.0.28",
-    "type": "static"
-  },
-  {
-    "source": "npm:css-tree@2.2.1",
-    "target": "npm:source-map-js",
-    "type": "static"
-  },
-  {
     "source": "npm:debug",
     "target": "npm:ms",
     "type": "static"
@@ -9062,21 +5332,6 @@
   {
     "source": "npm:defaults",
     "target": "npm:clone",
-    "type": "static"
-  },
-  {
-    "source": "npm:detect-port",
-    "target": "npm:address",
-    "type": "static"
-  },
-  {
-    "source": "npm:detect-port",
-    "target": "npm:debug",
-    "type": "static"
-  },
-  {
-    "source": "npm:dir-glob",
-    "target": "npm:path-type@4.0.0",
     "type": "static"
   },
   {
@@ -9141,12 +5396,7 @@
   },
   {
     "source": "npm:dot-prop",
-    "target": "npm:type-fest",
-    "type": "static"
-  },
-  {
-    "source": "npm:dotenv-expand",
-    "target": "npm:dotenv",
+    "target": "npm:type-fest@4.41.0",
     "type": "static"
   },
   {
@@ -9165,11 +5415,6 @@
     "type": "static"
   },
   {
-    "source": "npm:ejs",
-    "target": "npm:jake",
-    "type": "static"
-  },
-  {
     "source": "npm:encoding",
     "target": "npm:iconv-lite@0.6.3",
     "type": "static"
@@ -9177,11 +5422,6 @@
   {
     "source": "npm:iconv-lite@0.6.3",
     "target": "npm:safer-buffer",
-    "type": "static"
-  },
-  {
-    "source": "npm:end-of-stream",
-    "target": "npm:once",
     "type": "static"
   },
   {
@@ -9245,11 +5485,6 @@
     "type": "static"
   },
   {
-    "source": "npm:enquirer",
-    "target": "npm:ansi-colors",
-    "type": "static"
-  },
-  {
     "source": "npm:ent",
     "target": "npm:call-bound",
     "type": "static"
@@ -9280,33 +5515,8 @@
     "type": "static"
   },
   {
-    "source": "npm:error-stack-parser",
-    "target": "npm:stackframe",
-    "type": "static"
-  },
-  {
     "source": "npm:es-object-atoms",
     "target": "npm:es-errors",
-    "type": "static"
-  },
-  {
-    "source": "npm:es-set-tostringtag",
-    "target": "npm:es-errors",
-    "type": "static"
-  },
-  {
-    "source": "npm:es-set-tostringtag",
-    "target": "npm:get-intrinsic",
-    "type": "static"
-  },
-  {
-    "source": "npm:es-set-tostringtag",
-    "target": "npm:has-tostringtag",
-    "type": "static"
-  },
-  {
-    "source": "npm:es-set-tostringtag",
-    "target": "npm:hasown",
     "type": "static"
   },
   {
@@ -9435,181 +5645,6 @@
     "type": "static"
   },
   {
-    "source": "npm:eslint",
-    "target": "npm:jiti",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@eslint-community/eslint-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@eslint-community/regexpp",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@eslint/config-array",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@eslint/config-helpers",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@eslint/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@eslint/eslintrc",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@eslint/js",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@eslint/plugin-kit",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@humanfs/node",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@humanwhocodes/module-importer",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@humanwhocodes/retry",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:@types/estree",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:ajv@6.12.6",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:cross-spawn",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:debug",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:escape-string-regexp",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:eslint-scope@8.4.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:eslint-visitor-keys@4.2.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:espree",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:esquery",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:esutils",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:fast-deep-equal",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:file-entry-cache",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:find-up@5.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:glob-parent",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:ignore@5.3.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:imurmurhash",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:json-stable-stringify-without-jsonify",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:lodash.merge",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:minimatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:natural-compare",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint",
-    "target": "npm:optionator",
-    "type": "static"
-  },
-  {
     "source": "npm:eslint-scope",
     "target": "npm:esrecurse",
     "type": "static"
@@ -9620,103 +5655,8 @@
     "type": "static"
   },
   {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:fast-deep-equal",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:fast-json-stable-stringify",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:json-schema-traverse@0.4.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:uri-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint-scope@8.4.0",
-    "target": "npm:esrecurse",
-    "type": "static"
-  },
-  {
-    "source": "npm:eslint-scope@8.4.0",
-    "target": "npm:estraverse@5.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:find-up@5.0.0",
-    "target": "npm:locate-path@6.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:find-up@5.0.0",
-    "target": "npm:path-exists@4.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:locate-path@6.0.0",
-    "target": "npm:p-locate@5.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:p-limit@3.1.0",
-    "target": "npm:yocto-queue@0.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:p-locate@5.0.0",
-    "target": "npm:p-limit@3.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:espree",
-    "target": "npm:acorn",
-    "type": "static"
-  },
-  {
-    "source": "npm:espree",
-    "target": "npm:acorn-jsx",
-    "type": "static"
-  },
-  {
-    "source": "npm:espree",
-    "target": "npm:eslint-visitor-keys@4.2.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:esquery",
-    "target": "npm:estraverse@5.3.0",
-    "type": "static"
-  },
-  {
     "source": "npm:esrecurse",
     "target": "npm:estraverse@5.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:expand-tilde",
-    "target": "npm:homedir-polyfill",
     "type": "static"
   },
   {
@@ -9880,6 +5820,21 @@
     "type": "static"
   },
   {
+    "source": "npm:external-editor",
+    "target": "npm:chardet",
+    "type": "static"
+  },
+  {
+    "source": "npm:external-editor",
+    "target": "npm:iconv-lite",
+    "type": "static"
+  },
+  {
+    "source": "npm:external-editor",
+    "target": "npm:tmp",
+    "type": "static"
+  },
+  {
     "source": "npm:fast-glob",
     "target": "npm:@nodelib/fs.stat",
     "type": "static"
@@ -9922,31 +5877,6 @@
   {
     "source": "npm:fdir",
     "target": "npm:picomatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:figures",
-    "target": "npm:escape-string-regexp@1.0.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:file-entry-cache",
-    "target": "npm:flat-cache",
-    "type": "static"
-  },
-  {
-    "source": "npm:filelist",
-    "target": "npm:minimatch@5.1.6",
-    "type": "static"
-  },
-  {
-    "source": "npm:brace-expansion@2.0.2",
-    "target": "npm:balanced-match",
-    "type": "static"
-  },
-  {
-    "source": "npm:minimatch@5.1.6",
-    "target": "npm:brace-expansion@2.0.2",
     "type": "static"
   },
   {
@@ -10005,16 +5935,6 @@
     "type": "static"
   },
   {
-    "source": "npm:find-file-up",
-    "target": "npm:resolve-dir",
-    "type": "static"
-  },
-  {
-    "source": "npm:find-pkg",
-    "target": "npm:find-file-up",
-    "type": "static"
-  },
-  {
     "source": "npm:find-up",
     "target": "npm:locate-path",
     "type": "static"
@@ -10025,16 +5945,6 @@
     "type": "static"
   },
   {
-    "source": "npm:flat-cache",
-    "target": "npm:flatted",
-    "type": "static"
-  },
-  {
-    "source": "npm:flat-cache",
-    "target": "npm:keyv",
-    "type": "static"
-  },
-  {
     "source": "npm:foreground-child",
     "target": "npm:cross-spawn",
     "type": "static"
@@ -10042,271 +5952,6 @@
   {
     "source": "npm:foreground-child",
     "target": "npm:signal-exit",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:webpack",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:@babel/code-frame",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:chokidar@3.6.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:cosmiconfig@7.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:deepmerge",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:fs-extra@10.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:memfs@3.5.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:minimatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:node-abort-controller",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:schema-utils@3.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:fork-ts-checker-webpack-plugin",
-    "target": "npm:tapable",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:fast-deep-equal",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:fast-json-stable-stringify",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:json-schema-traverse@0.4.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv@6.12.6",
-    "target": "npm:uri-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:ajv-keywords@3.5.2",
-    "target": "npm:ajv@6.12.6",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:anymatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:braces",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:glob-parent@5.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:is-binary-path",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:normalize-path",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:readdirp@3.6.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:fsevents",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:@types/parse-json",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:import-fresh",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:parse-json",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:path-type@4.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:cosmiconfig@7.1.0",
-    "target": "npm:yaml@1.10.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@10.1.0",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@10.1.0",
-    "target": "npm:jsonfile",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@10.1.0",
-    "target": "npm:universalify",
-    "type": "static"
-  },
-  {
-    "source": "npm:glob-parent@5.1.2",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:memfs@3.5.3",
-    "target": "npm:fs-monkey",
-    "type": "static"
-  },
-  {
-    "source": "npm:readdirp@3.6.0",
-    "target": "npm:picomatch@2.3.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:schema-utils@3.3.0",
-    "target": "npm:@types/json-schema",
-    "type": "static"
-  },
-  {
-    "source": "npm:schema-utils@3.3.0",
-    "target": "npm:ajv@6.12.6",
-    "type": "static"
-  },
-  {
-    "source": "npm:schema-utils@3.3.0",
-    "target": "npm:ajv-keywords@3.5.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:form-data",
-    "target": "npm:asynckit",
-    "type": "static"
-  },
-  {
-    "source": "npm:form-data",
-    "target": "npm:combined-stream",
-    "type": "static"
-  },
-  {
-    "source": "npm:form-data",
-    "target": "npm:es-set-tostringtag",
-    "type": "static"
-  },
-  {
-    "source": "npm:form-data",
-    "target": "npm:hasown",
-    "type": "static"
-  },
-  {
-    "source": "npm:form-data",
-    "target": "npm:mime-types",
-    "type": "static"
-  },
-  {
-    "source": "npm:front-matter",
-    "target": "npm:js-yaml@3.14.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:argparse@1.0.10",
-    "target": "npm:sprintf-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:js-yaml@3.14.2",
-    "target": "npm:argparse@1.0.10",
-    "type": "static"
-  },
-  {
-    "source": "npm:js-yaml@3.14.2",
-    "target": "npm:esprima",
     "type": "static"
   },
   {
@@ -10425,51 +6070,6 @@
     "type": "static"
   },
   {
-    "source": "npm:glob-to-regex.js",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:global-modules",
-    "target": "npm:global-prefix",
-    "type": "static"
-  },
-  {
-    "source": "npm:global-modules",
-    "target": "npm:is-windows",
-    "type": "static"
-  },
-  {
-    "source": "npm:global-modules",
-    "target": "npm:resolve-dir",
-    "type": "static"
-  },
-  {
-    "source": "npm:global-prefix",
-    "target": "npm:expand-tilde",
-    "type": "static"
-  },
-  {
-    "source": "npm:global-prefix",
-    "target": "npm:homedir-polyfill",
-    "type": "static"
-  },
-  {
-    "source": "npm:global-prefix",
-    "target": "npm:ini@1.3.8",
-    "type": "static"
-  },
-  {
-    "source": "npm:global-prefix",
-    "target": "npm:is-windows",
-    "type": "static"
-  },
-  {
-    "source": "npm:global-prefix",
-    "target": "npm:which",
-    "type": "static"
-  },
-  {
     "source": "npm:globby",
     "target": "npm:@sindresorhus/merge-streams",
     "type": "static"
@@ -10507,11 +6107,6 @@
   {
     "source": "npm:hasown",
     "target": "npm:function-bind",
-    "type": "static"
-  },
-  {
-    "source": "npm:homedir-polyfill",
-    "target": "npm:parse-passwd",
     "type": "static"
   },
   {
@@ -10580,21 +6175,6 @@
     "type": "static"
   },
   {
-    "source": "npm:html-encoding-sniffer",
-    "target": "npm:whatwg-encoding",
-    "type": "static"
-  },
-  {
-    "source": "npm:html2canvas",
-    "target": "npm:css-line-break",
-    "type": "static"
-  },
-  {
-    "source": "npm:html2canvas",
-    "target": "npm:text-segmentation",
-    "type": "static"
-  },
-  {
     "source": "npm:htmlparser2",
     "target": "npm:domelementtype",
     "type": "static"
@@ -10611,42 +6191,7 @@
   },
   {
     "source": "npm:htmlparser2",
-    "target": "npm:entities@6.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-assert",
-    "target": "npm:deep-equal",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-assert",
-    "target": "npm:http-errors@1.8.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-errors@1.8.1",
-    "target": "npm:depd@1.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-errors@1.8.1",
-    "target": "npm:inherits",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-errors@1.8.1",
-    "target": "npm:setprototypeof",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-errors@1.8.1",
-    "target": "npm:statuses@1.5.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-errors@1.8.1",
-    "target": "npm:toidentifier",
+    "target": "npm:entities@6.0.0",
     "type": "static"
   },
   {
@@ -10730,86 +6275,6 @@
     "type": "static"
   },
   {
-    "source": "npm:http-server",
-    "target": "npm:basic-auth",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:corser",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:he",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:html-encoding-sniffer",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:http-proxy",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:mime@1.6.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:minimist",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:opener",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:portfinder",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:secure-compare",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:union",
-    "type": "static"
-  },
-  {
-    "source": "npm:http-server",
-    "target": "npm:url-join",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
     "source": "npm:https-proxy-agent",
     "target": "npm:agent-base",
     "type": "static"
@@ -10835,13 +6300,13 @@
     "type": "static"
   },
   {
-    "source": "npm:brace-expansion@2.0.2",
+    "source": "npm:brace-expansion@2.0.1",
     "target": "npm:balanced-match",
     "type": "static"
   },
   {
     "source": "npm:minimatch@9.0.5",
-    "target": "npm:brace-expansion@2.0.2",
+    "target": "npm:brace-expansion@2.0.1",
     "type": "static"
   },
   {
@@ -10862,6 +6327,16 @@
   {
     "source": "npm:inflight",
     "target": "npm:wrappy",
+    "type": "static"
+  },
+  {
+    "source": "npm:ip-address",
+    "target": "npm:jsbn",
+    "type": "static"
+  },
+  {
+    "source": "npm:ip-address",
+    "target": "npm:sprintf-js",
     "type": "static"
   },
   {
@@ -10907,11 +6382,6 @@
   {
     "source": "npm:is-wsl",
     "target": "npm:is-inside-container",
-    "type": "static"
-  },
-  {
-    "source": "npm:isomorphic-ws",
-    "target": "npm:ws",
     "type": "static"
   },
   {
@@ -10990,101 +6460,6 @@
     "type": "static"
   },
   {
-    "source": "npm:jake",
-    "target": "npm:async@3.2.6",
-    "type": "static"
-  },
-  {
-    "source": "npm:jake",
-    "target": "npm:filelist",
-    "type": "static"
-  },
-  {
-    "source": "npm:jake",
-    "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-diff",
-    "target": "npm:@jest/diff-sequences",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-diff",
-    "target": "npm:@jest/get-type",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-diff",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-diff",
-    "target": "npm:pretty-format",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-util",
-    "target": "npm:@jest/types",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-util",
-    "target": "npm:@types/node",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-util",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-util",
-    "target": "npm:ci-info",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-util",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:jest-util",
-    "target": "npm:picomatch@2.3.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
     "source": "npm:jest-worker",
     "target": "npm:@types/node",
     "type": "static"
@@ -11126,7 +6501,7 @@
   },
   {
     "source": "npm:json-server",
-    "target": "npm:chalk",
+    "target": "npm:chalk@5.4.1",
     "type": "static"
   },
   {
@@ -11176,52 +6551,7 @@
   },
   {
     "source": "npm:jsonfile",
-    "target": "npm:universalify",
-    "type": "static"
-  },
-  {
-    "source": "npm:jsonfile",
     "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:jspdf",
-    "target": "npm:@babel/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:jspdf",
-    "target": "npm:atob",
-    "type": "static"
-  },
-  {
-    "source": "npm:jspdf",
-    "target": "npm:btoa",
-    "type": "static"
-  },
-  {
-    "source": "npm:jspdf",
-    "target": "npm:fflate",
-    "type": "static"
-  },
-  {
-    "source": "npm:jspdf",
-    "target": "npm:canvg",
-    "type": "static"
-  },
-  {
-    "source": "npm:jspdf",
-    "target": "npm:core-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:jspdf",
-    "target": "npm:dompurify",
-    "type": "static"
-  },
-  {
-    "source": "npm:jspdf",
-    "target": "npm:html2canvas",
     "type": "static"
   },
   {
@@ -11291,7 +6621,7 @@
   },
   {
     "source": "npm:karma",
-    "target": "npm:mime@2.6.0",
+    "target": "npm:mime",
     "type": "static"
   },
   {
@@ -11331,7 +6661,7 @@
   },
   {
     "source": "npm:karma",
-    "target": "npm:tmp",
+    "target": "npm:tmp@0.2.3",
     "type": "static"
   },
   {
@@ -11435,11 +6765,6 @@
     "type": "static"
   },
   {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
     "source": "npm:chokidar@3.6.0",
     "target": "npm:anymatch",
     "type": "static"
@@ -11526,7 +6851,7 @@
   },
   {
     "source": "npm:wrap-ansi@7.0.0",
-    "target": "npm:ansi-styles@4.3.0",
+    "target": "npm:ansi-styles",
     "type": "static"
   },
   {
@@ -11572,126 +6897,6 @@
   {
     "source": "npm:yargs@16.2.0",
     "target": "npm:yargs-parser@20.2.9",
-    "type": "static"
-  },
-  {
-    "source": "npm:keygrip",
-    "target": "npm:tsscmp",
-    "type": "static"
-  },
-  {
-    "source": "npm:keyv",
-    "target": "npm:json-buffer",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:accepts",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:content-disposition",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:content-type",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:cookies",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:delegates",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:destroy",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:encodeurl",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:escape-html",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:fresh",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:http-assert",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:http-errors",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:koa-compose",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:mime-types@3.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:on-finished",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:parseurl",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:statuses",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:type-is@2.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:koa",
-    "target": "npm:vary",
-    "type": "static"
-  },
-  {
-    "source": "npm:mime-types@3.0.1",
-    "target": "npm:mime-db@1.54.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:type-is@2.0.1",
-    "target": "npm:content-type",
-    "type": "static"
-  },
-  {
-    "source": "npm:type-is@2.0.1",
-    "target": "npm:media-typer@1.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:type-is@2.0.1",
-    "target": "npm:mime-types@3.0.1",
     "type": "static"
   },
   {
@@ -11756,11 +6961,6 @@
   },
   {
     "source": "npm:less-loader",
-    "target": "npm:@rspack/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:less-loader",
     "target": "npm:less",
     "type": "static"
   },
@@ -11780,16 +6980,6 @@
     "type": "static"
   },
   {
-    "source": "npm:levn",
-    "target": "npm:prelude-ls",
-    "type": "static"
-  },
-  {
-    "source": "npm:levn",
-    "target": "npm:type-check",
-    "type": "static"
-  },
-  {
     "source": "npm:license-webpack-plugin",
     "target": "npm:webpack-sources",
     "type": "static"
@@ -11797,11 +6987,6 @@
   {
     "source": "npm:lightningcss",
     "target": "npm:detect-libc",
-    "type": "static"
-  },
-  {
-    "source": "npm:lightningcss",
-    "target": "npm:lightningcss-android-arm64",
     "type": "static"
   },
   {
@@ -11881,21 +7066,21 @@
   },
   {
     "source": "npm:listr2",
-    "target": "npm:wrap-ansi@9.0.2",
+    "target": "npm:wrap-ansi@9.0.0",
     "type": "static"
   },
   {
-    "source": "npm:wrap-ansi@9.0.2",
-    "target": "npm:ansi-styles",
+    "source": "npm:wrap-ansi@9.0.0",
+    "target": "npm:ansi-styles@6.2.1",
     "type": "static"
   },
   {
-    "source": "npm:wrap-ansi@9.0.2",
+    "source": "npm:wrap-ansi@9.0.0",
     "target": "npm:string-width",
     "type": "static"
   },
   {
-    "source": "npm:wrap-ansi@9.0.2",
+    "source": "npm:wrap-ansi@9.0.0",
     "target": "npm:strip-ansi",
     "type": "static"
   },
@@ -11961,7 +7146,7 @@
   },
   {
     "source": "npm:log-symbols",
-    "target": "npm:chalk@4.1.2",
+    "target": "npm:chalk",
     "type": "static"
   },
   {
@@ -11970,23 +7155,8 @@
     "type": "static"
   },
   {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
     "source": "npm:log-update",
-    "target": "npm:ansi-escapes",
+    "target": "npm:ansi-escapes@7.0.0",
     "type": "static"
   },
   {
@@ -11996,7 +7166,7 @@
   },
   {
     "source": "npm:log-update",
-    "target": "npm:slice-ansi@7.1.2",
+    "target": "npm:slice-ansi@7.1.0",
     "type": "static"
   },
   {
@@ -12006,36 +7176,41 @@
   },
   {
     "source": "npm:log-update",
-    "target": "npm:wrap-ansi@9.0.2",
+    "target": "npm:wrap-ansi@9.0.0",
     "type": "static"
   },
   {
-    "source": "npm:is-fullwidth-code-point@5.1.0",
+    "source": "npm:ansi-escapes@7.0.0",
+    "target": "npm:environment",
+    "type": "static"
+  },
+  {
+    "source": "npm:is-fullwidth-code-point@5.0.0",
     "target": "npm:get-east-asian-width",
     "type": "static"
   },
   {
-    "source": "npm:slice-ansi@7.1.2",
-    "target": "npm:ansi-styles",
+    "source": "npm:slice-ansi@7.1.0",
+    "target": "npm:ansi-styles@6.2.1",
     "type": "static"
   },
   {
-    "source": "npm:slice-ansi@7.1.2",
-    "target": "npm:is-fullwidth-code-point@5.1.0",
+    "source": "npm:slice-ansi@7.1.0",
+    "target": "npm:is-fullwidth-code-point@5.0.0",
     "type": "static"
   },
   {
-    "source": "npm:wrap-ansi@9.0.2",
-    "target": "npm:ansi-styles",
+    "source": "npm:wrap-ansi@9.0.0",
+    "target": "npm:ansi-styles@6.2.1",
     "type": "static"
   },
   {
-    "source": "npm:wrap-ansi@9.0.2",
+    "source": "npm:wrap-ansi@9.0.0",
     "target": "npm:string-width",
     "type": "static"
   },
   {
-    "source": "npm:wrap-ansi@9.0.2",
+    "source": "npm:wrap-ansi@9.0.0",
     "target": "npm:strip-ansi",
     "type": "static"
   },
@@ -12147,16 +7322,6 @@
   {
     "source": "npm:memfs",
     "target": "npm:@jsonjoy.com/util",
-    "type": "static"
-  },
-  {
-    "source": "npm:memfs",
-    "target": "npm:glob-to-regex.js",
-    "type": "static"
-  },
-  {
-    "source": "npm:memfs",
-    "target": "npm:thingies",
     "type": "static"
   },
   {
@@ -12320,31 +7485,6 @@
     "type": "static"
   },
   {
-    "source": "npm:multimatch",
-    "target": "npm:@types/minimatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:multimatch",
-    "target": "npm:array-differ",
-    "type": "static"
-  },
-  {
-    "source": "npm:multimatch",
-    "target": "npm:array-union",
-    "type": "static"
-  },
-  {
-    "source": "npm:multimatch",
-    "target": "npm:arrify",
-    "type": "static"
-  },
-  {
-    "source": "npm:multimatch",
-    "target": "npm:minimatch",
-    "type": "static"
-  },
-  {
     "source": "npm:needle",
     "target": "npm:iconv-lite@0.6.3",
     "type": "static"
@@ -12360,88 +7500,18 @@
     "type": "static"
   },
   {
-    "source": "npm:ng-morph",
-    "target": "npm:@angular-devkit/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:ng-morph",
-    "target": "npm:@angular-devkit/schematics",
-    "type": "static"
-  },
-  {
-    "source": "npm:ng-morph",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:ng-morph",
-    "target": "npm:jsonc-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:ng-morph",
-    "target": "npm:minimatch@10.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ng-morph",
-    "target": "npm:multimatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:ng-morph",
-    "target": "npm:ts-morph",
-    "type": "static"
-  },
-  {
-    "source": "npm:brace-expansion@2.0.2",
-    "target": "npm:balanced-match",
-    "type": "static"
-  },
-  {
-    "source": "npm:minimatch@10.0.1",
-    "target": "npm:brace-expansion@2.0.2",
+    "source": "npm:nginx",
+    "target": "npm:chalk",
     "type": "static"
   },
   {
     "source": "npm:nginx",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:nginx",
-    "target": "npm:commander",
+    "target": "npm:commander@7.2.0",
     "type": "static"
   },
   {
     "source": "npm:nginx",
     "target": "npm:prompt",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:node-fetch",
-    "target": "npm:encoding",
-    "type": "static"
-  },
-  {
-    "source": "npm:node-fetch",
-    "target": "npm:whatwg-url",
     "type": "static"
   },
   {
@@ -12481,7 +7551,7 @@
   },
   {
     "source": "npm:node-gyp",
-    "target": "npm:tar@7.5.2",
+    "target": "npm:tar@7.4.3",
     "type": "static"
   },
   {
@@ -12500,48 +7570,38 @@
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
     "target": "npm:@isaacs/fs-minipass",
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
     "target": "npm:chownr@3.0.0",
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
     "target": "npm:minipass",
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
     "target": "npm:minizlib",
     "type": "static"
   },
   {
-    "source": "npm:tar@7.5.2",
+    "source": "npm:tar@7.4.3",
+    "target": "npm:mkdirp@3.0.1",
+    "type": "static"
+  },
+  {
+    "source": "npm:tar@7.4.3",
     "target": "npm:yallist@5.0.0",
     "type": "static"
   },
   {
     "source": "npm:which@5.0.0",
     "target": "npm:isexe@3.1.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:node-schedule",
-    "target": "npm:cron-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:node-schedule",
-    "target": "npm:long-timeout",
-    "type": "static"
-  },
-  {
-    "source": "npm:node-schedule",
-    "target": "npm:sorted-array-functions",
     "type": "static"
   },
   {
@@ -12645,383 +7705,8 @@
     "type": "static"
   },
   {
-    "source": "npm:npm-run-path",
-    "target": "npm:path-key",
-    "type": "static"
-  },
-  {
     "source": "npm:nth-check",
     "target": "npm:boolbase",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@napi-rs/wasm-runtime@0.2.4",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@yarnpkg/lockfile",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@yarnpkg/parsers",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@zkochan/js-yaml",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:axios",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:cli-cursor@3.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:cli-spinners@2.6.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:cliui",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:dotenv",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:dotenv-expand",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:enquirer",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:figures",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:flat",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:front-matter",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:ignore",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:jest-diff",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:jsonc-parser@3.2.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:lines-and-columns@2.0.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:minimatch@9.0.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:node-machine-id",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:npm-run-path",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:open@8.4.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:ora@5.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:resolve.exports",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:string-width@4.2.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:tar-stream",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:tmp",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:tree-kill",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:tsconfig-paths",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:yaml",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:yargs",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:yargs-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-darwin-arm64",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-darwin-x64",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-freebsd-x64",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-linux-arm-gnueabihf",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-linux-arm64-gnu",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-linux-arm64-musl",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-linux-x64-gnu",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-linux-x64-musl",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-win32-arm64-msvc",
-    "type": "static"
-  },
-  {
-    "source": "npm:nx",
-    "target": "npm:@nx/nx-win32-x64-msvc",
-    "type": "static"
-  },
-  {
-    "source": "npm:@napi-rs/wasm-runtime@0.2.4",
-    "target": "npm:@emnapi/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@napi-rs/wasm-runtime@0.2.4",
-    "target": "npm:@emnapi/runtime",
-    "type": "static"
-  },
-  {
-    "source": "npm:@napi-rs/wasm-runtime@0.2.4",
-    "target": "npm:@tybys/wasm-util@0.9.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:@tybys/wasm-util@0.9.0",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:brace-expansion@2.0.2",
-    "target": "npm:balanced-match",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:cli-cursor@3.1.0",
-    "target": "npm:restore-cursor@3.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:is-wsl@2.2.0",
-    "target": "npm:is-docker@2.2.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:minimatch@9.0.3",
-    "target": "npm:brace-expansion@2.0.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:onetime@5.1.2",
-    "target": "npm:mimic-fn",
-    "type": "static"
-  },
-  {
-    "source": "npm:open@8.4.2",
-    "target": "npm:define-lazy-prop@2.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:open@8.4.2",
-    "target": "npm:is-docker@2.2.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:open@8.4.2",
-    "target": "npm:is-wsl@2.2.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:ora@5.3.0",
-    "target": "npm:bl",
-    "type": "static"
-  },
-  {
-    "source": "npm:ora@5.3.0",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:ora@5.3.0",
-    "target": "npm:cli-cursor@3.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:ora@5.3.0",
-    "target": "npm:cli-spinners@2.6.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ora@5.3.0",
-    "target": "npm:is-interactive",
-    "type": "static"
-  },
-  {
-    "source": "npm:ora@5.3.0",
-    "target": "npm:log-symbols",
-    "type": "static"
-  },
-  {
-    "source": "npm:ora@5.3.0",
-    "target": "npm:strip-ansi@6.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ora@5.3.0",
-    "target": "npm:wcwidth",
-    "type": "static"
-  },
-  {
-    "source": "npm:restore-cursor@3.1.0",
-    "target": "npm:onetime@5.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:restore-cursor@3.1.0",
-    "target": "npm:signal-exit@3.0.7",
-    "type": "static"
-  },
-  {
-    "source": "npm:string-width@4.2.3",
-    "target": "npm:emoji-regex@8.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:string-width@4.2.3",
-    "target": "npm:is-fullwidth-code-point@3.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:string-width@4.2.3",
-    "target": "npm:strip-ansi@6.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:strip-ansi@6.0.1",
-    "target": "npm:ansi-regex@5.0.1",
     "type": "static"
   },
   {
@@ -13060,43 +7745,13 @@
     "type": "static"
   },
   {
-    "source": "npm:optionator",
-    "target": "npm:deep-is",
-    "type": "static"
-  },
-  {
-    "source": "npm:optionator",
-    "target": "npm:fast-levenshtein",
-    "type": "static"
-  },
-  {
-    "source": "npm:optionator",
-    "target": "npm:levn",
-    "type": "static"
-  },
-  {
-    "source": "npm:optionator",
-    "target": "npm:prelude-ls",
-    "type": "static"
-  },
-  {
-    "source": "npm:optionator",
-    "target": "npm:type-check",
-    "type": "static"
-  },
-  {
-    "source": "npm:optionator",
-    "target": "npm:word-wrap",
-    "type": "static"
-  },
-  {
     "source": "npm:ora",
     "target": "npm:bl",
     "type": "static"
   },
   {
     "source": "npm:ora",
-    "target": "npm:chalk@4.1.2",
+    "target": "npm:chalk",
     "type": "static"
   },
   {
@@ -13132,21 +7787,6 @@
   {
     "source": "npm:ora",
     "target": "npm:wcwidth",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
     "type": "static"
   },
   {
@@ -13311,7 +7951,7 @@
   },
   {
     "source": "npm:parse5",
-    "target": "npm:entities@6.0.1",
+    "target": "npm:entities",
     "type": "static"
   },
   {
@@ -13355,16 +7995,6 @@
     "type": "static"
   },
   {
-    "source": "npm:portfinder",
-    "target": "npm:async@3.2.6",
-    "type": "static"
-  },
-  {
-    "source": "npm:portfinder",
-    "target": "npm:debug",
-    "type": "static"
-  },
-  {
     "source": "npm:postcss",
     "target": "npm:nanoid",
     "type": "static"
@@ -13377,116 +8007,6 @@
   {
     "source": "npm:postcss",
     "target": "npm:source-map-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-calc",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-calc",
-    "target": "npm:postcss-selector-parser@6.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-calc",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:cssesc",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:util-deprecate",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-colormin",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-colormin",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-colormin",
-    "target": "npm:caniuse-api",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-colormin",
-    "target": "npm:colord",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-colormin",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-convert-values",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-convert-values",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-convert-values",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-discard-comments",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-discard-duplicates",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-discard-empty",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-discard-overridden",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-import",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-import",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-import",
-    "target": "npm:read-cache",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-import",
-    "target": "npm:resolve",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-loader",
-    "target": "npm:@rspack/core",
     "type": "static"
   },
   {
@@ -13506,132 +8026,12 @@
   },
   {
     "source": "npm:postcss-loader",
-    "target": "npm:jiti@1.21.7",
+    "target": "npm:jiti",
     "type": "static"
   },
   {
     "source": "npm:postcss-loader",
     "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-merge-longhand",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-merge-longhand",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-merge-longhand",
-    "target": "npm:stylehacks",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-merge-rules",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-merge-rules",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-merge-rules",
-    "target": "npm:caniuse-api",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-merge-rules",
-    "target": "npm:cssnano-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-merge-rules",
-    "target": "npm:postcss-selector-parser@6.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:cssesc",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:util-deprecate",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-font-values",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-font-values",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-gradients",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-gradients",
-    "target": "npm:colord",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-gradients",
-    "target": "npm:cssnano-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-gradients",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-params",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-params",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-params",
-    "target": "npm:cssnano-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-params",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-selectors",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-minify-selectors",
-    "target": "npm:postcss-selector-parser@6.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:cssesc",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:util-deprecate",
     "type": "static"
   },
   {
@@ -13680,136 +8080,6 @@
     "type": "static"
   },
   {
-    "source": "npm:postcss-normalize-charset",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-display-values",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-display-values",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-positions",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-positions",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-repeat-style",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-repeat-style",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-string",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-string",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-timing-functions",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-timing-functions",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-unicode",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-unicode",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-unicode",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-url",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-url",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-whitespace",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-normalize-whitespace",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-ordered-values",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-ordered-values",
-    "target": "npm:cssnano-utils",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-ordered-values",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-reduce-initial",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-reduce-initial",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-reduce-initial",
-    "target": "npm:caniuse-api",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-reduce-transforms",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-reduce-transforms",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
     "source": "npm:postcss-selector-parser",
     "target": "npm:cssesc",
     "type": "static"
@@ -13817,56 +8087,6 @@
   {
     "source": "npm:postcss-selector-parser",
     "target": "npm:util-deprecate",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-svgo",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-svgo",
-    "target": "npm:postcss-value-parser",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-svgo",
-    "target": "npm:svgo",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-unique-selectors",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-unique-selectors",
-    "target": "npm:postcss-selector-parser@6.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:cssesc",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:util-deprecate",
-    "type": "static"
-  },
-  {
-    "source": "npm:pretty-format",
-    "target": "npm:@jest/schemas",
-    "type": "static"
-  },
-  {
-    "source": "npm:pretty-format",
-    "target": "npm:ansi-styles@5.2.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:pretty-format",
-    "target": "npm:react-is",
     "type": "static"
   },
   {
@@ -13911,17 +8131,12 @@
   },
   {
     "source": "npm:proxy-addr",
-    "target": "npm:ipaddr.js@1.9.1",
+    "target": "npm:ipaddr.js",
     "type": "static"
   },
   {
     "source": "npm:qs",
     "target": "npm:side-channel",
-    "type": "static"
-  },
-  {
-    "source": "npm:raf",
-    "target": "npm:performance-now",
     "type": "static"
   },
   {
@@ -13941,7 +8156,7 @@
   },
   {
     "source": "npm:raw-body",
-    "target": "npm:iconv-lite@0.4.24",
+    "target": "npm:iconv-lite",
     "type": "static"
   },
   {
@@ -13950,28 +8165,8 @@
     "type": "static"
   },
   {
-    "source": "npm:iconv-lite@0.4.24",
-    "target": "npm:safer-buffer",
-    "type": "static"
-  },
-  {
-    "source": "npm:react-dom",
-    "target": "npm:react",
-    "type": "static"
-  },
-  {
-    "source": "npm:react-dom",
-    "target": "npm:scheduler",
-    "type": "static"
-  },
-  {
     "source": "npm:read",
     "target": "npm:mute-stream@0.0.8",
-    "type": "static"
-  },
-  {
-    "source": "npm:read-cache",
-    "target": "npm:pify@2.3.0",
     "type": "static"
   },
   {
@@ -13992,6 +8187,11 @@
   {
     "source": "npm:regenerate-unicode-properties",
     "target": "npm:regenerate",
+    "type": "static"
+  },
+  {
+    "source": "npm:regenerator-transform",
+    "target": "npm:@babel/runtime",
     "type": "static"
   },
   {
@@ -14026,7 +8226,7 @@
   },
   {
     "source": "npm:regjsparser",
-    "target": "npm:jsesc",
+    "target": "npm:jsesc@3.0.2",
     "type": "static"
   },
   {
@@ -14042,16 +8242,6 @@
   {
     "source": "npm:resolve",
     "target": "npm:supports-preserve-symlinks-flag",
-    "type": "static"
-  },
-  {
-    "source": "npm:resolve-dir",
-    "target": "npm:expand-tilde",
-    "type": "static"
-  },
-  {
-    "source": "npm:resolve-dir",
-    "target": "npm:global-modules",
     "type": "static"
   },
   {
@@ -14260,203 +8450,8 @@
     "type": "static"
   },
   {
-    "source": "npm:sass-embedded",
-    "target": "npm:@bufbuild/protobuf",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:buffer-builder",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:colorjs.io",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:immutable",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:rxjs",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:supports-color@8.1.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sync-child-process",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:varint",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-all-unknown",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-android-arm",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-android-arm64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-android-riscv64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-android-x64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-darwin-arm64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-darwin-x64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-linux-arm",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-linux-arm64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-linux-musl-arm",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-linux-musl-arm64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-linux-musl-riscv64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-linux-musl-x64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-linux-riscv64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-linux-x64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-unknown-all",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-win32-arm64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded",
-    "target": "npm:sass-embedded-win32-x64",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded-all-unknown",
-    "target": "npm:sass@1.93.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass@1.93.3",
-    "target": "npm:chokidar",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass@1.93.3",
-    "target": "npm:immutable",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass@1.93.3",
-    "target": "npm:source-map-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass@1.93.3",
-    "target": "npm:@parcel/watcher",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-embedded-unknown-all",
-    "target": "npm:sass@1.93.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass@1.93.3",
-    "target": "npm:chokidar",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass@1.93.3",
-    "target": "npm:immutable",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass@1.93.3",
-    "target": "npm:source-map-js",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass@1.93.3",
-    "target": "npm:@parcel/watcher",
-    "type": "static"
-  },
-  {
-    "source": "npm:supports-color@8.1.1",
-    "target": "npm:has-flag",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-loader",
-    "target": "npm:@rspack/core",
-    "type": "static"
-  },
-  {
     "source": "npm:sass-loader",
     "target": "npm:sass",
-    "type": "static"
-  },
-  {
-    "source": "npm:sass-loader",
-    "target": "npm:sass-embedded",
     "type": "static"
   },
   {
@@ -14801,7 +8796,7 @@
   },
   {
     "source": "npm:slice-ansi",
-    "target": "npm:ansi-styles",
+    "target": "npm:ansi-styles@6.2.1",
     "type": "static"
   },
   {
@@ -15046,27 +9041,7 @@
   },
   {
     "source": "npm:streamroller",
-    "target": "npm:fs-extra@8.1.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@8.1.0",
-    "target": "npm:graceful-fs",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@8.1.0",
-    "target": "npm:jsonfile@4.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:fs-extra@8.1.0",
-    "target": "npm:universalify@0.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:jsonfile@4.0.0",
-    "target": "npm:graceful-fs",
+    "target": "npm:fs-extra",
     "type": "static"
   },
   {
@@ -15120,218 +9095,8 @@
     "type": "static"
   },
   {
-    "source": "npm:style-loader",
-    "target": "npm:webpack",
-    "type": "static"
-  },
-  {
-    "source": "npm:stylehacks",
-    "target": "npm:postcss",
-    "type": "static"
-  },
-  {
-    "source": "npm:stylehacks",
-    "target": "npm:browserslist",
-    "type": "static"
-  },
-  {
-    "source": "npm:stylehacks",
-    "target": "npm:postcss-selector-parser@6.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:cssesc",
-    "type": "static"
-  },
-  {
-    "source": "npm:postcss-selector-parser@6.1.2",
-    "target": "npm:util-deprecate",
-    "type": "static"
-  },
-  {
     "source": "npm:supports-color",
     "target": "npm:has-flag",
-    "type": "static"
-  },
-  {
-    "source": "npm:svgo",
-    "target": "npm:@trysound/sax",
-    "type": "static"
-  },
-  {
-    "source": "npm:svgo",
-    "target": "npm:commander",
-    "type": "static"
-  },
-  {
-    "source": "npm:svgo",
-    "target": "npm:css-select",
-    "type": "static"
-  },
-  {
-    "source": "npm:svgo",
-    "target": "npm:css-tree",
-    "type": "static"
-  },
-  {
-    "source": "npm:svgo",
-    "target": "npm:css-what",
-    "type": "static"
-  },
-  {
-    "source": "npm:svgo",
-    "target": "npm:csso",
-    "type": "static"
-  },
-  {
-    "source": "npm:svgo",
-    "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:sync-child-process",
-    "target": "npm:sync-message-port",
-    "type": "static"
-  },
-  {
-    "source": "npm:taiga-ui",
-    "target": "npm:@taiga-ui/cdk@4.61.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:taiga-ui",
-    "target": "npm:@taiga-ui/cdk@4.61.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:taiga-ui",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@angular/animations@20.3.10",
-    "target": "npm:@angular/core@20.3.10",
-    "type": "static"
-  },
-  {
-    "source": "npm:@angular/animations@20.3.10",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@angular/core@20.3.10",
-    "target": "npm:rxjs",
-    "type": "static"
-  },
-  {
-    "source": "npm:@angular/core@20.3.10",
-    "target": "npm:zone.js",
-    "type": "static"
-  },
-  {
-    "source": "npm:@angular/core@20.3.10",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@angular/animations@20.3.10",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@angular/cdk",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@angular/common",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@angular/core@20.3.10",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@angular/forms",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@ng-web-apis/common",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@ng-web-apis/mutation-observer",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@ng-web-apis/platform",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@ng-web-apis/resize-observer",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@ng-web-apis/screen-orientation",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@taiga-ui/event-plugins",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@taiga-ui/polymorpheus",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:rxjs",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@angular-devkit/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@angular-devkit/schematics",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:@schematics/angular",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:ng-morph",
-    "type": "static"
-  },
-  {
-    "source": "npm:@taiga-ui/cdk@4.61.0",
-    "target": "npm:parse5@8.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:parse5@8.0.0",
-    "target": "npm:entities@6.0.1",
     "type": "static"
   },
   {
@@ -15362,31 +9127,6 @@
   {
     "source": "npm:tar",
     "target": "npm:yallist@4.0.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:tar-stream",
-    "target": "npm:bl",
-    "type": "static"
-  },
-  {
-    "source": "npm:tar-stream",
-    "target": "npm:end-of-stream",
-    "type": "static"
-  },
-  {
-    "source": "npm:tar-stream",
-    "target": "npm:fs-constants",
-    "type": "static"
-  },
-  {
-    "source": "npm:tar-stream",
-    "target": "npm:inherits",
-    "type": "static"
-  },
-  {
-    "source": "npm:tar-stream",
-    "target": "npm:readable-stream",
     "type": "static"
   },
   {
@@ -15426,7 +9166,7 @@
   },
   {
     "source": "npm:terser",
-    "target": "npm:commander@2.20.3",
+    "target": "npm:commander",
     "type": "static"
   },
   {
@@ -15465,11 +9205,6 @@
     "type": "static"
   },
   {
-    "source": "npm:text-segmentation",
-    "target": "npm:utrie",
-    "type": "static"
-  },
-  {
     "source": "npm:thingies",
     "target": "npm:tslib",
     "type": "static"
@@ -15481,7 +9216,12 @@
   },
   {
     "source": "npm:tinyglobby",
-    "target": "npm:picomatch@4.0.3",
+    "target": "npm:picomatch",
+    "type": "static"
+  },
+  {
+    "source": "npm:tmp",
+    "target": "npm:os-tmpdir",
     "type": "static"
   },
   {
@@ -15492,226 +9232,6 @@
   {
     "source": "npm:tree-dump",
     "target": "npm:tslib",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-api-utils",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-checker-rspack-plugin",
-    "target": "npm:@rspack/core",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-checker-rspack-plugin",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-checker-rspack-plugin",
-    "target": "npm:@babel/code-frame",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-checker-rspack-plugin",
-    "target": "npm:@rspack/lite-tapable",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-checker-rspack-plugin",
-    "target": "npm:chokidar@3.6.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-checker-rspack-plugin",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-checker-rspack-plugin",
-    "target": "npm:memfs",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-checker-rspack-plugin",
-    "target": "npm:minimatch@9.0.5",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-checker-rspack-plugin",
-    "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:brace-expansion@2.0.2",
-    "target": "npm:balanced-match",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:anymatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:braces",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:glob-parent@5.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:is-binary-path",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:normalize-path",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:readdirp@3.6.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chokidar@3.6.0",
-    "target": "npm:fsevents",
-    "type": "static"
-  },
-  {
-    "source": "npm:glob-parent@5.1.2",
-    "target": "npm:is-glob",
-    "type": "static"
-  },
-  {
-    "source": "npm:minimatch@9.0.5",
-    "target": "npm:brace-expansion@2.0.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:readdirp@3.6.0",
-    "target": "npm:picomatch@2.3.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-loader",
-    "target": "npm:typescript",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-loader",
-    "target": "npm:webpack",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-loader",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-loader",
-    "target": "npm:enhanced-resolve",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-loader",
-    "target": "npm:micromatch",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-loader",
-    "target": "npm:semver",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-loader",
-    "target": "npm:source-map",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-morph",
-    "target": "npm:@ts-morph/common",
-    "type": "static"
-  },
-  {
-    "source": "npm:ts-morph",
-    "target": "npm:code-block-writer",
-    "type": "static"
-  },
-  {
-    "source": "npm:tsconfig-paths",
-    "target": "npm:json5",
-    "type": "static"
-  },
-  {
-    "source": "npm:tsconfig-paths",
-    "target": "npm:minimist",
-    "type": "static"
-  },
-  {
-    "source": "npm:tsconfig-paths",
-    "target": "npm:strip-bom",
-    "type": "static"
-  },
-  {
-    "source": "npm:tsconfig-paths-webpack-plugin",
-    "target": "npm:chalk@4.1.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:tsconfig-paths-webpack-plugin",
-    "target": "npm:enhanced-resolve",
-    "type": "static"
-  },
-  {
-    "source": "npm:tsconfig-paths-webpack-plugin",
-    "target": "npm:tapable",
-    "type": "static"
-  },
-  {
-    "source": "npm:tsconfig-paths-webpack-plugin",
-    "target": "npm:tsconfig-paths",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:ansi-styles@4.3.0",
-    "type": "static"
-  },
-  {
-    "source": "npm:chalk@4.1.2",
-    "target": "npm:supports-color",
     "type": "static"
   },
   {
@@ -15727,11 +9247,6 @@
   {
     "source": "npm:tuf-js",
     "target": "npm:make-fetch-happen",
-    "type": "static"
-  },
-  {
-    "source": "npm:type-check",
-    "target": "npm:prelude-ls",
     "type": "static"
   },
   {
@@ -15752,11 +9267,6 @@
   {
     "source": "npm:unicode-match-property-ecmascript",
     "target": "npm:unicode-property-aliases-ecmascript",
-    "type": "static"
-  },
-  {
-    "source": "npm:union",
-    "target": "npm:qs",
     "type": "static"
   },
   {
@@ -15782,16 +9292,6 @@
   {
     "source": "npm:update-browserslist-db",
     "target": "npm:picocolors",
-    "type": "static"
-  },
-  {
-    "source": "npm:uri-js",
-    "target": "npm:punycode@2.3.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:utrie",
-    "target": "npm:base64-arraybuffer",
     "type": "static"
   },
   {
@@ -15831,17 +9331,7 @@
   },
   {
     "source": "npm:vite",
-    "target": "npm:sass-embedded",
-    "type": "static"
-  },
-  {
-    "source": "npm:vite",
     "target": "npm:terser",
-    "type": "static"
-  },
-  {
-    "source": "npm:vite",
-    "target": "npm:yaml",
     "type": "static"
   },
   {
@@ -15866,7 +9356,7 @@
   },
   {
     "source": "npm:vite",
-    "target": "npm:rollup@4.53.2",
+    "target": "npm:rollup@4.40.0",
     "type": "static"
   },
   {
@@ -15880,122 +9370,112 @@
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@types/estree@1.0.8",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@types/estree@1.0.7",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-android-arm-eabi@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-android-arm-eabi@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-android-arm64@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-android-arm64@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-darwin-arm64@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-darwin-arm64@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-darwin-x64@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-darwin-x64@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-freebsd-arm64@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-freebsd-arm64@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-freebsd-x64@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-freebsd-x64@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-arm-gnueabihf@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-arm-gnueabihf@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-arm-musleabihf@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-arm-musleabihf@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-arm64-gnu@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-arm64-gnu@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-arm64-musl@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-arm64-musl@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-loong64-gnu",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-loongarch64-gnu@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-ppc64-gnu",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-powerpc64le-gnu@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-riscv64-gnu@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-riscv64-gnu@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
+    "source": "npm:rollup@4.40.0",
     "target": "npm:@rollup/rollup-linux-riscv64-musl",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-s390x-gnu@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-s390x-gnu@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-x64-gnu@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-x64-gnu@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-linux-x64-musl@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-linux-x64-musl@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-openharmony-arm64",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-win32-arm64-msvc@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-win32-arm64-msvc@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-win32-ia32-msvc@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-win32-ia32-msvc@4.53.2",
+    "source": "npm:rollup@4.40.0",
+    "target": "npm:@rollup/rollup-win32-x64-msvc@4.40.0",
     "type": "static"
   },
   {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-win32-x64-gnu",
-    "type": "static"
-  },
-  {
-    "source": "npm:rollup@4.53.2",
-    "target": "npm:@rollup/rollup-win32-x64-msvc@4.53.2",
-    "type": "static"
-  },
-  {
-    "source": "npm:rollup@4.53.2",
+    "source": "npm:rollup@4.40.0",
     "target": "npm:fsevents",
     "type": "static"
   },
@@ -16191,11 +9671,6 @@
   },
   {
     "source": "npm:webpack-dev-server",
-    "target": "npm:@types/express-serve-static-core",
-    "type": "static"
-  },
-  {
-    "source": "npm:webpack-dev-server",
     "target": "npm:@types/serve-index",
     "type": "static"
   },
@@ -16261,7 +9736,7 @@
   },
   {
     "source": "npm:webpack-dev-server",
-    "target": "npm:ipaddr.js",
+    "target": "npm:ipaddr.js@2.2.0",
     "type": "static"
   },
   {
@@ -16311,7 +9786,7 @@
   },
   {
     "source": "npm:webpack-dev-server",
-    "target": "npm:ws@8.18.3",
+    "target": "npm:ws@8.18.1",
     "type": "static"
   },
   {
@@ -16435,26 +9910,6 @@
     "type": "static"
   },
   {
-    "source": "npm:whatwg-encoding",
-    "target": "npm:iconv-lite@0.6.3",
-    "type": "static"
-  },
-  {
-    "source": "npm:iconv-lite@0.6.3",
-    "target": "npm:safer-buffer",
-    "type": "static"
-  },
-  {
-    "source": "npm:whatwg-url",
-    "target": "npm:tr46",
-    "type": "static"
-  },
-  {
-    "source": "npm:whatwg-url",
-    "target": "npm:webidl-conversions",
-    "type": "static"
-  },
-  {
     "source": "npm:which",
     "target": "npm:isexe",
     "type": "static"
@@ -16496,7 +9951,7 @@
   },
   {
     "source": "npm:wrap-ansi",
-    "target": "npm:ansi-styles@4.3.0",
+    "target": "npm:ansi-styles",
     "type": "static"
   },
   {
@@ -16511,7 +9966,7 @@
   },
   {
     "source": "npm:wrap-ansi-cjs",
-    "target": "npm:ansi-styles@4.3.0",
+    "target": "npm:ansi-styles",
     "type": "static"
   },
   {
@@ -16522,11 +9977,6 @@
   {
     "source": "npm:wrap-ansi-cjs",
     "target": "npm:strip-ansi@6.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
     "type": "static"
   },
   {
@@ -16547,11 +9997,6 @@
   {
     "source": "npm:strip-ansi@6.0.1",
     "target": "npm:ansi-regex@5.0.1",
-    "type": "static"
-  },
-  {
-    "source": "npm:ansi-styles@4.3.0",
-    "target": "npm:color-convert",
     "type": "static"
   },
   {

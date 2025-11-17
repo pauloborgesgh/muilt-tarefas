@@ -10,18 +10,15 @@ import { MainComponent } from './components/main/main.component';
 
 @Component({
   selector: 'app-root',
-  imports: [FormsModule,RouterOutlet, HeaderComponent,HttpClientModule,FooterComponent,MainComponent],
+  imports: [FormsModule,RouterOutlet, HeaderComponent,FooterComponent,MainComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   standalone: true,
 })
 export class AppComponent {
-  nome:string = ''
-  dadoPai :string = "Dado Pai";
-  poke: any[] = [];
 
-  constructor(private service: ListService,
-              private HttpClient: HttpClientModule,
+
+  constructor(
 
   ) {
 

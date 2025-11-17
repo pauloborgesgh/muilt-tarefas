@@ -15,13 +15,23 @@
 }
 
 :root{
-    /* cyberpunk palette */
-    --cp-bg-1: #04060a;
-    --cp-bg-2: #08121a;
-    --cp-neon-1: #67dbe2;
-    --cp-neon-2: #a6fff8;
-    --cp-accent: #ff6ec7;
-    --card-bg: rgba(20,24,30,0.6);
+    /* classic minimalist palette (default) */
+    --cp-bg-1: #f6f7f9; /* maps to light background start */
+    --cp-bg-2: #ffffff; /* maps to light background end */
+    --cp-neon-1: #1f2937; /* primary accent mapped to neutral */
+    --cp-neon-2: #111827; /* base text color (dark slate) */
+    --cp-accent: #0ea5e9; /* subtle blue accent */
+    --card-bg: rgba(255,255,255,0.8);
+}
+
+/* Optional: previous cyber/neon theme as an opt-in */
+.theme-cyber{
+  --cp-bg-1: #04060a;
+  --cp-bg-2: #08121a;
+  --cp-neon-1: #67dbe2;
+  --cp-neon-2: #a6fff8;
+  --cp-accent: #ff6ec7;
+  --card-bg: rgba(20,24,30,0.6);
 }
 
 /* Background principal com camada animada */
@@ -40,8 +50,8 @@ body{
     overflow-x: hidden;
 }
 
-/* Camada animada sutil por cima do fundo escuro */
-body::before{
+/* Camada animada: apenas no tema cyber */
+body.theme-cyber::before{
     content: '';
     position: fixed;
     inset: 0;
@@ -64,18 +74,18 @@ body::before{
 }
 
 .cyber-card{
-    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-    border: 1px solid rgba(103,219,226,0.12);
+    background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.86));
+    border: 1px solid rgba(0,0,0,0.06);
     border-radius: 12px;
     padding: 14px;
-    box-shadow: 0 6px 30px rgba(103,219,226,0.04), 0 2px 6px rgba(0,0,0,0.6);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
 }
 
 .cyber-card .title{
     color: var(--cp-neon-1);
     font-weight: 700;
     margin-bottom: 8px;
-    text-shadow: 0 0 8px rgba(166,255,248,0.06);
+    text-shadow: none;
 }
 
 .grid-cards{
@@ -85,16 +95,16 @@ body::before{
 }
 
 .input-neon{
-    background: transparent;
-    border: 1px solid rgba(166,255,248,0.12);
-    color: var(--cp-neon-1);
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.12);
+    color: #0f172a;
     padding: 8px 10px;
     border-radius: 8px;
 }
 .input-neon:focus{
     outline: none;
-    border-color: var(--cp-neon-2);
-    box-shadow: 0 0 12px rgba(166,255,248,0.28);
+    border-color: rgba(0,0,0,0.3);
+    box-shadow: 0 0 0 3px rgba(2,132,199,0.15);
 }
 .input-neon>option{
   color: black;
@@ -104,13 +114,13 @@ option:hover{
 }
 
 .btn-neon{
-    background: linear-gradient(90deg,var(--cp-neon-1),var(--cp-accent));
-    color: #001f23;
-    border: none;
+    background: #111827;
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.2);
     padding: 8px 12px;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0 0 18px rgba(103,219,226,0.18);
+    box-shadow: none;
 }
 
 
